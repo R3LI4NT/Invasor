@@ -13,6 +13,6 @@
   </a>
     <img src="https://img.shields.io/badge/System-Windows-blue.svg">
   </a>
-    <img src="https://img.shields.io/badge/Private-%F0%9F%97%9D%EF%B8%8F-blue.svg">
+    <img src="https://img.shields.io/badge/Private-%F0%9F%94%92-blue.svg">
   </a>
 </p>

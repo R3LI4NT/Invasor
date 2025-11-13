@@ -9,7 +9,7 @@
 
 <p align="center">
    <a href="https://dotnet.microsoft.com/">
-    <img src="https://img.shields.io/badge/C%23-Ransomnware-blue.svg">
+    <img src="https://img.shields.io/badge/C%23-Ransomware-blue.svg">
   </a>
     <img src="https://img.shields.io/badge/System-Windows-blue.svg">
   </a>

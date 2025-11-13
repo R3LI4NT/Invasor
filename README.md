@@ -9,10 +9,10 @@
 
 <p align="center">
    <a href="https://dotnet.microsoft.com/">
-    <img src="https://img.shields.io/badge/C%23-Ransomware-blue.svg">
+    <img src="https://img.shields.io/badge/C%23-Ransomware-093fb9.svg">
   </a>
-    <img src="https://img.shields.io/badge/System-Windows-blue.svg">
+    <img src="https://img.shields.io/badge/System-Windows-093fb9.svg">
   </a>
-    <img src="https://img.shields.io/badge/Private-%F0%9F%94%92-6186FF.svg">
+    <img src="https://img.shields.io/badge/Private-%F0%9F%94%92-093fb9.svg">
   </a>
 </p>

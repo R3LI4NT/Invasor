@@ -6,3 +6,13 @@
 <p align="center">
   <img width="200" height="350" alt="Invasor-2" src="https://github.com/user-attachments/assets/2b8c8d9f-102e-4e7c-9bf0-562b41c7cea2" />
 </p>
+
+<p align="center">
+   <a href="https://dotnet.microsoft.com/">
+    <img src="https://img.shields.io/badge/C%23-Ransomnware-blue.svg">
+  </a>
+    <img src="https://img.shields.io/badge/System-Windows-blue.svg">
+  </a>
+    <img src="https://img.shields.io/badge/Private-%F0%9F%97%9D%EF%B8%8F-blue.svg">
+  </a>
+</p>

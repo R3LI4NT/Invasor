@@ -4,9 +4,9 @@
 
 
 <p align="center">
-  "Mira primero, luego salta"
-  
   <img width="200" height="350" alt="Invasor-2" src="https://github.com/user-attachments/assets/2b8c8d9f-102e-4e7c-9bf0-562b41c7cea2" />
+
+  <span>"Mira primero, luego salta"</span>
 </p>
 
 <p align="center">

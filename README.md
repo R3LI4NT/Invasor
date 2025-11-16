@@ -21,10 +21,12 @@
 
 ### Características de `Invasor`:
 
-<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil.
+<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil. La encriptación es de tipo <u>parcial</u>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado.
 
 <img width="728" height="233" alt="1" src="https://github.com/user-attachments/assets/76b8c790-860c-421a-b22c-35fcd9635a01" />
 <img width="1365" height="721" alt="2" src="https://github.com/user-attachments/assets/537fc445-345e-4242-adc0-247a0c0b7575" />
 
+Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin la clave ECC Privada el usuario final no podrá desencriptar los archivos. Es envíada al atacante desde un servidor SMTP.
 
+<img width="1143" height="368" alt="3" src="https://github.com/user-attachments/assets/9a8c7bbc-bce7-4a82-80f0-6aca48bc0166" />
 

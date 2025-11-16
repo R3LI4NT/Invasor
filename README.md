@@ -39,4 +39,10 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 <img width="465" height="280" alt="6" src="https://github.com/user-attachments/assets/85ebdce3-7162-46f0-b551-baa86fb80ca3" />
 <img width="465" height="277" alt="7" src="https://github.com/user-attachments/assets/a2fc03f7-2bc7-4c87-a630-803e1394e30e" />
 
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/Desencriptación:-093fb9.svg"> Invasor cuenta con un Desencriptador GUI para recuperar los archivos encriptados, permite desencriptar por lote o por archivo individual.
+
+<img width="676" height="720" alt="8" src="https://github.com/user-attachments/assets/e3c9d7bc-ad10-4d16-a4e9-ca9d94caf5cb" />
+
 

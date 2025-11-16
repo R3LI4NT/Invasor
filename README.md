@@ -34,8 +34,8 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <img src="https://img.shields.io/badge/RESCATE:-093fb9.svg"> Una vez finalizado el proceso de encriptación, Invasor genera un archivo interactivo denominado `Invasor-decrypt-files.html` en el escritorio del usuario, donde se detallan los pasos necesarios para obtener el desencriptador.
 <img width="465" height="276" alt="4" src="https://github.com/user-attachments/assets/c53b7ff3-ef4f-4eb3-8872-2ecf3a0b3fa0" />
-<img width="1365" height="466" alt="5" src="https://github.com/user-attachments/assets/24a8593f-0e61-4eb9-8751-2c707dd4d1a4" />
-<img width="1365" height="680" alt="6" src="https://github.com/user-attachments/assets/85ebdce3-7162-46f0-b551-baa86fb80ca3" />
-<img width="1365" height="677" alt="7" src="https://github.com/user-attachments/assets/a2fc03f7-2bc7-4c87-a630-803e1394e30e" />
+<img width="465" height="266" alt="5" src="https://github.com/user-attachments/assets/24a8593f-0e61-4eb9-8751-2c707dd4d1a4" />
+<img width="465" height="280" alt="6" src="https://github.com/user-attachments/assets/85ebdce3-7162-46f0-b551-baa86fb80ca3" />
+<img width="465" height="277" alt="7" src="https://github.com/user-attachments/assets/a2fc03f7-2bc7-4c87-a630-803e1394e30e" />
 
 

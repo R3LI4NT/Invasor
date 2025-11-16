@@ -26,7 +26,7 @@
 <img width="728" height="233" alt="1" src="https://github.com/user-attachments/assets/76b8c790-860c-421a-b22c-35fcd9635a01" />
 <img width="1365" height="721" alt="2" src="https://github.com/user-attachments/assets/537fc445-345e-4242-adc0-247a0c0b7575" />
 
-Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin la clave ECC Privada el usuario final no podrá desencriptar los archivos. Es envíada al atacante desde un servidor SMTP.
+Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin la clave ECC Privada el usuario final no podrá desencriptar los archivos. Es envíada al atacante desde un servidor SMTP. La clave privada se sobrescribe tres veces con datos aleatorios y posteriormente con patrones de ceros y unos; finalmente, el archivo se trunca a 0 bytes antes de su eliminación. Este proceso de sobreescritura dificulta en extremo cualquier intento de recuperación forense.
 
 <img width="1143" height="368" alt="3" src="https://github.com/user-attachments/assets/9a8c7bbc-bce7-4a82-80f0-6aca48bc0166" />
 

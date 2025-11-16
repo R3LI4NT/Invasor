@@ -18,3 +18,7 @@
 </p>
 
 <h1 align="center"></h1>
+
+### Características de `Invasor`:
+
+<img src="https://img.shields.io/badge/Encriptación%23-AES-093fb9.svg">

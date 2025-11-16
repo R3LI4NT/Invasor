@@ -17,6 +17,10 @@
   </a>
 </p>
 
+  <div id="header" align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?size=14&width=435&color=14FF00&lines=Mira primero, luego salta"></a>
+</div>
+
 <h1 align="center"></h1>
 
 ### Características de `Invasor`:

@@ -60,4 +60,4 @@ Correo de contacto:
 <h1 align="center"></h1>
 
 > [!NOTE]
-> Invasor es un proyecto de código privado en el cual actualmente soy el único desarrollador. Mi objetivo es llevarlo al máximo nivel posible. No tengo intención de lucrarme con él ni de causar daño; su único propósito es poner a prueba y perfeccionar mis conocimientos en el desarrollo de malware.
+> Invasor aún se encuentra en desarrollo, todavía falta pulir. Es un proyecto de código privado en el cual actualmente soy el único desarrollador. Mi objetivo es llevarlo al máximo nivel posible. No tengo intención de lucrarme con él ni de causar daño; su único propósito es poner a prueba y perfeccionar mis conocimientos en el desarrollo de malware.

@@ -41,7 +41,9 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 <img width="465" height="276" alt="4" src="https://github.com/user-attachments/assets/c53b7ff3-ef4f-4eb3-8872-2ecf3a0b3fa0" />
 <img width="465" height="266" alt="5" src="https://github.com/user-attachments/assets/24a8593f-0e61-4eb9-8751-2c707dd4d1a4" />
 <img width="465" height="280" alt="6" src="https://github.com/user-attachments/assets/85ebdce3-7162-46f0-b551-baa86fb80ca3" />
-<img width="465" height="277" alt="7" src="https://github.com/user-attachments/assets/a2fc03f7-2bc7-4c87-a630-803e1394e30e" />
+<img width="465" height="284" alt="7" src="https://github.com/user-attachments/assets/a272ca09-0d8b-4e12-8f34-4fc0f287443c" />
+<img width="465" height="231" alt="8" src="https://github.com/user-attachments/assets/c7664699-4c85-41f0-8982-dc6b604f9a47" />
+
 
 <h1 align="center"></h1>
 

@@ -47,5 +47,5 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversión, los AV no pueden estudiar fácilmente el código.
+<img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversing, los AV no pueden estudiar fácilmente el código.
 

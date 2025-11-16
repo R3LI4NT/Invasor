@@ -53,5 +53,11 @@ https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 
 <h1 align="center"></h1>
 
+Correo de contacto:
+
+<img src="https://img.shields.io/badge/r3li4nt.contact@keemail.me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+
+<h1 align="center"></h1>
+
 > [!NOTE]
-> "Invasor es un proyecto de código privado en el cual actualmente soy el único desarrollador. Mi objetivo es llevarlo al máximo nivel posible. No tengo intención de lucrarme con él ni de causar daño; su único propósito es poner a prueba y perfeccionar mis conocimientos en el desarrollo de malware.
+> Invasor es un proyecto de código privado en el cual actualmente soy el único desarrollador. Mi objetivo es llevarlo al máximo nivel posible. No tengo intención de lucrarme con él ni de causar daño; su único propósito es poner a prueba y perfeccionar mis conocimientos en el desarrollo de malware.

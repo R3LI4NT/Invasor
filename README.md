@@ -21,4 +21,4 @@
 
 ### Características de `Invasor`:
 
-<img src="https://img.shields.io/badge/Encriptación%23-AES-093fb9.svg">
+<img src="https://img.shields.io/badge/%23-Encriptación-093fb9.svg">

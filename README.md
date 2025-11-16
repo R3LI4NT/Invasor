@@ -21,4 +21,8 @@
 
 ### Características de `Invasor`:
 
-<img src="https://img.shields.io/badge/Encriptación-093fb9.svg">
+<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente imposible y requiera un tiempo computacional extremadamente elevado.
+
+<img width="728" height="233" alt="1" src="https://github.com/user-attachments/assets/76b8c790-860c-421a-b22c-35fcd9635a01" />
+
+

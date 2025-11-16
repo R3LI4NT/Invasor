@@ -45,4 +45,7 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <img width="476" height="520" alt="8" src="https://github.com/user-attachments/assets/e3c9d7bc-ad10-4d16-a4e9-ca9d94caf5cb" />
 
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/Anti-VM:-093fb9.svg">
 

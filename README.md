@@ -60,6 +60,6 @@ https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 <h1 align="center"></h1>
 
 > [!NOTE]
-> Invasor aún se encuentra en desarrollo, todavía falta pulir. Es un proyecto de código privado en el cual actualmente soy el único desarrollador.
+> Invasor aún se encuentra en desarrollo, todavía falta pulir bastante. Es un proyecto de código privado en el cual actualmente soy el único desarrollador.
 
 > R3LI4NT

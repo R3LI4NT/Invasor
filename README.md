@@ -53,7 +53,7 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/STEALER:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al Bot de Telegram. Utilizar Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer.
+<img src="https://img.shields.io/badge/STEALER:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al Bot de Telegram. Utiliza Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer.
 
 <img width="1265" height="588" alt="Stealer" src="https://github.com/user-attachments/assets/5dfa51e2-4025-4127-9f50-e9daeca66f10" />
 

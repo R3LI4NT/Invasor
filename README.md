@@ -57,7 +57,7 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <img width="1265" height="588" alt="Stealer" src="https://github.com/user-attachments/assets/5dfa51e2-4025-4127-9f50-e9daeca66f10" />
 
-Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de que los archivos superen más de 3.8GB se envían por partes.
+Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de que el comprimido supere los 3.8GB, se envían por partes.
 
 <img width="662" height="401" alt="Stealer_Diagrama" src="https://github.com/user-attachments/assets/6b1f8f20-7fe5-4250-a1d4-e95f8aa73f92" />
 

@@ -34,6 +34,10 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 <img width="1143" height="368" alt="3" src="https://github.com/user-attachments/assets/9a8c7bbc-bce7-4a82-80f0-6aca48bc0166" />
 
+Si el servidor SMTP falla, envía la clave al canal de Telegram.
+
+<img width="1053" height="530" alt="Telegram" src="https://github.com/user-attachments/assets/20ff218d-98cf-42a5-a975-44ca938a421c" />
+
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/RESCATE:-093fb9.svg"> Una vez finalizado el proceso de encriptación, Invasor genera un archivo interactivo denominado `Invasor-decrypt-files.html` en el escritorio del usuario, donde se detallan los pasos necesarios para obtener el desencriptador.

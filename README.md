@@ -67,7 +67,54 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/PAYLOAD:-DISCOVERY-093fb9.svg">
+<img src="https://img.shields.io/badge/PAYLOAD:-DISCOVERY-093fb9.svg"> Se diseño un herramienta de recolección de información del sistema que realiza un análisis comprehensivo del equipo infectado, recolectando datos como:
+
+**1. Información Básica del Sistema:**
+- Nombre de máquina y usuario
+- Versión del sistema operativo y arquitectura (32/64 bits)
+- Directorios del sistema y actual
+- Información de memoria (RAM física y virtual)
+- Procesadores (cantidad, arquitectura, páginas)
+
+**2. Análisis de Hardware:**
+- Fabricante y modelo del equipo
+- Procesador: nombre, velocidad, núcleos, procesadores lógicos
+- Discos duros: tamaño, espacio libre, sistema de archivos, tipo de unidad
+- Memoria RAM: total, disponible, carga de memoria
+
+**3. Información de Red:**
+- Hostname y direcciones IP locales
+- Interfaces de red: nombre, tipo, estado, velocidad
+- Direcciones MAC de cada interfaz
+- Configuración de red: gateways, servidores DNS
+- Conexiones TCP activas: IP local/remota, puertos, estado, PID
+
+**4. Usuarios y Grupos:**
+- Usuario actual: SID, tipo de autenticación
+- Grupos de usuario pertenecientes
+- Usuarios locales del sistema
+- Información de dominio (si está unido a dominio)
+
+**5. rocesos y Servicios:**
+- Procesos en ejecución: nombre, PID, uso de memoria
+- Servicios de Windows: nombre, estado, modo de inicio, ruta
+- Limitado a 100 procesos para evitar saturación
+
+**6. Active Directory:**
+- Detección de unión a dominio
+- Nombre del dominio y rol
+- Información adicional via WMI
+
+**7. Seguridad del Sistema:**
+- Estado de UAC (User Account Control)
+- Tipo de producto Windows
+- Firewall instalado
+- Políticas de seguridad
+
+**8. Registro de Windows:**
+- Entradas de autoarranque (Run, RunOnce)
+- Programas instalados (desde registro)
+- Software detallado (via WMI)
 
 <h1 align="center"></h1>
 

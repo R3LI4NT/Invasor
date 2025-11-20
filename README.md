@@ -73,6 +73,7 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 <img width="565" height="236" alt="Data-Leak-4" src="https://github.com/user-attachments/assets/f3d3535f-1924-4b6e-9447-3120472eda92" />
 <img width="565" height="227" alt="Data-Leak-2" src="https://github.com/user-attachments/assets/447b3a9e-c2ea-43c1-9059-717e7f3bc010" />
 <img width="565" height="234" alt="Data-Leak-1" src="https://github.com/user-attachments/assets/649a86fc-ba45-4838-b376-59259420184d" />
+<img width="765" height="134" alt="Data-Leak-5" src="https://github.com/user-attachments/assets/d4a552ce-c671-43e1-b540-27bde64f950e" />
 
 https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0
 

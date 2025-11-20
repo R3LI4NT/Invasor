@@ -72,7 +72,6 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 **1. Información Básica del Sistema:**
 - Nombre de máquina y usuario
 - Versión del sistema operativo y arquitectura (32/64 bits)
-- Directorios del sistema y actual
 - Información de memoria (RAM física y virtual)
 - Procesadores (cantidad, arquitectura, páginas)
 

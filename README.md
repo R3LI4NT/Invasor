@@ -57,7 +57,7 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/STEALER:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al canal de Telegram. Utiliza Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer. La mayoría de los Ransomware emplean esta técnica para presionar a la víctima y que pagué el rescate, de no hacerlo se filtra la información.
+<img src="https://img.shields.io/badge/STEALER:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al canal de Telegram. Utiliza Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer. La mayoría de los Ransomwares emplean esta técnica para presionar a la víctima y que pagué el rescate, de no hacerlo se filtra la información.
 
 <img width="1265" height="588" alt="Stealer" src="https://github.com/user-attachments/assets/5dfa51e2-4025-4127-9f50-e9daeca66f10" />
 

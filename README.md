@@ -115,6 +115,10 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 - Programas instalados (desde registro)
 - Software detallado (via WMI)
 
+El archivo `system_discovery.txt` es envíado al canal de Telegram.
+
+<img width="1365" height="716" alt="SystemDiscovery" src="https://github.com/user-attachments/assets/b96e2454-40f6-44da-bc1e-ba505bc1da38" />
+
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversing, los AV no pueden estudiar fácilmente el código.

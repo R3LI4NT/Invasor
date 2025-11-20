@@ -68,9 +68,9 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/DATALEAK:-093fb9.svg">  Invasor cuenta con un proyecto web full personalizable listo para usarse en las filtraciones de datos. 
-<img width="1365" height="634" alt="Data-Leak" src="https://github.com/user-attachments/assets/6c4fd685-98b8-48a6-977c-98bf8a547025" />
 <img width="565" height="237" alt="Data-Leak-3" src="https://github.com/user-attachments/assets/3b32abf8-6b4a-401a-9b8c-6f9b2b5184b5" />
 <img width="565" height="236" alt="Data-Leak-4" src="https://github.com/user-attachments/assets/f3d3535f-1924-4b6e-9447-3120472eda92" />
+<img width="565" height="234" alt="Data-Leak-2" src="https://github.com/user-attachments/assets/6c4fd685-98b8-48a6-977c-98bf8a547025" />
 <img width="565" height="234" alt="Data-Leak-1" src="https://github.com/user-attachments/assets/649a86fc-ba45-4838-b376-59259420184d" />
 
 https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0

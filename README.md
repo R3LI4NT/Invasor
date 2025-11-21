@@ -42,12 +42,11 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <img src="https://img.shields.io/badge/RESCATE:-093fb9.svg"> Una vez finalizado el proceso de encriptación, Invasor genera un archivo interactivo denominado `Invasor-decrypt-files.html` en el escritorio del usuario, donde se detallan los pasos necesarios para obtener el desencriptador.
 
-<img width="465" height="276" alt="4" src="https://github.com/user-attachments/assets/c53b7ff3-ef4f-4eb3-8872-2ecf3a0b3fa0" />
-<img width="465" height="266" alt="5" src="https://github.com/user-attachments/assets/24a8593f-0e61-4eb9-8751-2c707dd4d1a4" />
-<img width="465" height="271" alt="6" src="https://github.com/user-attachments/assets/4e8d6591-d619-4e55-aebf-e53487f05f66" />
-<img width="465" height="284" alt="7" src="https://github.com/user-attachments/assets/a272ca09-0d8b-4e12-8f34-4fc0f287443c" />
-<img width="465" height="231" alt="8" src="https://github.com/user-attachments/assets/c7664699-4c85-41f0-8982-dc6b604f9a47" />
-
+<img width="565" height="218" alt="Note-1" src="https://github.com/user-attachments/assets/290ec627-6a4a-4609-8e89-bf99abf9765a" />
+<img width="565" height="218" alt="Note-2" src="https://github.com/user-attachments/assets/958a0350-fecb-4d89-8cdc-b3eca18e5866" />
+<img width="565" height="218" alt="Note-3" src="https://github.com/user-attachments/assets/9f1804b6-ea52-40b8-a1bb-d831ac30aaaf" />
+<img width="565" height="218" alt="Note-4" src="https://github.com/user-attachments/assets/7dbed0de-d7e2-4447-a32c-d1c491355d67" />
+<img width="565" height="218" alt="Note-5" src="https://github.com/user-attachments/assets/3c109257-51da-4553-bd92-4de5edbcf0f5" />
 
 <h1 align="center"></h1>
 

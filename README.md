@@ -103,7 +103,7 @@ https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0
 - Usuarios locales del sistema
 - Información de dominio (si está unido a dominio)
 
-**5. rocesos y Servicios:**
+**5. Procesos y Servicios:**
 - Procesos en ejecución: nombre, PID, uso de memoria
 - Servicios de Windows: nombre, estado, modo de inicio, ruta
 - Limitado a 100 procesos para evitar saturación

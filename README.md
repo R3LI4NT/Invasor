@@ -76,7 +76,7 @@ https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/PAYLOAD:-DISCOVERY-093fb9.svg"> Se diseño un herramienta de recolección de información del sistema que realiza un análisis comprehensivo del equipo infectado, recolectando datos como:
+<img src="https://img.shields.io/badge/PAYLOAD 1)-DISCOVERY-093fb9.svg"> Se diseño un herramienta de recolección de información del sistema que realiza un análisis comprehensivo del equipo infectado, recolectando datos como:
 
 **1. Información Básica del Sistema:**
 - Nombre de máquina y usuario
@@ -127,6 +127,21 @@ https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0
 El archivo `system_discovery.txt` es envíado al canal de Telegram.
 
 <img width="1365" height="716" alt="SystemDiscovery" src="https://github.com/user-attachments/assets/b96e2454-40f6-44da-bc1e-ba505bc1da38" />
+
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/PAYLOAD 1)-REMOVER-093fb9.svg"> Se implementó un módulo "Remover", especializado en la eliminación permanente de mecanismos de recuperación del sistema. 
+
+1. `Elimina todas las Shadow Copies`: Borra todas las copias de seguridad del sistema usando varios métodos (VSS, WMI, CIM, VBScript), asegurándose de que no quede ninguna versión previa de archivos recuperable.
+<img width="782" height="155" alt="1" src="https://github.com/user-attachments/assets/df1b7229-64f4-4e55-ae4a-8e24b7208247" />
+
+2. `Desactiva y destruye Windows Recovery Environment (WinRE)`: Deshabilita WinRE, borra sus archivos (winre.wim), elimina carpetas asociadas y hasta intenta borrar particiones de recuperación para impedir restauración del sistema.
+
+3. `Modificar el BCD para impedir recuperaciones`: Edita la configuración de arranque (BCD) para desactivar recuperación automática y evitar que Windows muestre opciones de reparación tras fallas.
+
+4. `Borra rastros forenses`: Elimina registros de eventos (System, Security, Application, PowerShell) y borra archivos Prefetch, dificultando análisis forense posterior.
+
+5. `Ofuscación de comandos y múltiples métodos`: Esconde los comandos (hex, concatenación, scripts codificados Base64) y usa varias rutas para cada acción (cmd, PowerShell, COM, WMI), garantizando que el sabotaje se ejecute aunque falle un método.
 
 <h1 align="center"></h1>
 

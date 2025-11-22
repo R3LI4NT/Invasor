@@ -133,7 +133,7 @@ El archivo `system_discovery.txt` es envíado al canal de Telegram.
 <img src="https://img.shields.io/badge/PAYLOAD 2)-REMOVER-093fb9.svg"> Se implementó un módulo "Remover", especializado en la eliminación permanente de mecanismos de recuperación del sistema. 
 
 1. `Elimina todas las Shadow Copies`: Borra todas las copias de seguridad del sistema usando varios métodos (VSS, WMI, CIM, VBScript), asegurándose de que no quede ninguna versión previa de archivos recuperable.
-<img width="782" height="155" alt="1" src="https://github.com/user-attachments/assets/df1b7229-64f4-4e55-ae4a-8e24b7208247" />
+<img width="766" height="240" alt="1" src="https://github.com/user-attachments/assets/5a5ff288-906d-40fe-86ce-2bbf71fee865" />
 
 <img width="634" height="363" alt="4" src="https://github.com/user-attachments/assets/9e7b9a39-aa7d-44f4-9f16-85b00b3644de" />
 

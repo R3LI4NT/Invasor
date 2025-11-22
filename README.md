@@ -137,6 +137,8 @@ El archivo `system_discovery.txt` es envíado al canal de Telegram.
 
 <img width="634" height="363" alt="4" src="https://github.com/user-attachments/assets/9e7b9a39-aa7d-44f4-9f16-85b00b3644de" />
 
+<img width="560" height="163" alt="5" src="https://github.com/user-attachments/assets/96e3d17d-b77d-40b0-9dda-6441a86a814d" />
+
 2. `Desactiva y destruye Windows Recovery Environment (WinRE)`: Deshabilita WinRE, borra sus archivos (winre.wim), elimina carpetas asociadas y hasta intenta borrar particiones de recuperación para impedir restauración del sistema. Se eleva automáticamente con UAC y habilita SeDebugPrivilege para manipular procesos del sistema.
 
 <img width="571" height="96" alt="3" src="https://github.com/user-attachments/assets/0a864cf8-384d-4274-8193-309ba93be6b0" />

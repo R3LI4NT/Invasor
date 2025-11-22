@@ -149,6 +149,10 @@ El archivo `system_discovery.txt` es envíado al canal de Telegram.
 
 4. `Borra rastros forenses`: Elimina registros de eventos (System, Security, Application, PowerShell) y borra archivos Prefetch, dificultando análisis forense posterior. Configura EventLog para que falle permanentemente.
 
+<img width="788" height="181" alt="6" src="https://github.com/user-attachments/assets/9a651ad3-e738-4f3d-b10a-aa6b309edb98" />
+
+<img width="619" height="557" alt="7" src="https://github.com/user-attachments/assets/fc0043f2-0472-4249-b503-83fa1945fd8f" />
+
 5. `Ofuscación de comandos y múltiples métodos`: Esconde los comandos (hex, concatenación, scripts codificados Base64) y usa varias rutas para cada acción (cmd, PowerShell, COM, WMI), garantizando que se ejecute aunque falle un método.
 
 <h1 align="center"></h1>

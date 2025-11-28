@@ -71,12 +71,13 @@ Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de q
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/DATALEAK:-093fb9.svg">  Invasor cuenta con un proyecto web full personalizable listo para usarse en las filtraciones de datos. 
-<img width="565" height="237" alt="Data-Leak-3" src="https://github.com/user-attachments/assets/3b32abf8-6b4a-401a-9b8c-6f9b2b5184b5" />
-<img width="565" height="236" alt="Data-Leak-4" src="https://github.com/user-attachments/assets/f3d3535f-1924-4b6e-9447-3120472eda92" />
-<img width="565" height="234" alt="Data-Leak-2" src="https://github.com/user-attachments/assets/6c4fd685-98b8-48a6-977c-98bf8a547025" />
-<img width="565" height="234" alt="Data-Leak-1" src="https://github.com/user-attachments/assets/649a86fc-ba45-4838-b376-59259420184d" />
-
-https://github.com/user-attachments/assets/58c12a1c-4272-4f9b-b881-9c998ca320c0
+<img width="665" height="340" alt="1" src="https://github.com/user-attachments/assets/3d4be421-f33b-49c1-89b1-2177c3fdc863" />
+<img width="665" height="336" alt="2" src="https://github.com/user-attachments/assets/715c429b-b385-4dc3-8311-0cbe73b565cc" />
+<img width="665" height="335" alt="3" src="https://github.com/user-attachments/assets/b662da0f-98b5-42f3-9279-46e7aafebacd" />
+<img width="665" height="336" alt="4" src="https://github.com/user-attachments/assets/c0173706-43fb-456e-a5d3-c004510f1b8f" />
+<img width="665" height="334" alt="5" src="https://github.com/user-attachments/assets/8b9c840b-ae7f-4bf9-92a4-d4d29cd3f4fa" />
+<img width="665" height="336" alt="6" src="https://github.com/user-attachments/assets/c6ab49a3-fcd3-49f1-8ac0-1d820d0655da" />
+<img width="665" height="333" alt="7" src="https://github.com/user-attachments/assets/70ee49a5-9bed-41f7-9c26-58e8bb64b174" />
 
 <h1 align="center"></h1>
 

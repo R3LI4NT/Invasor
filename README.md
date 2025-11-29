@@ -25,6 +25,12 @@
 
 ### Características de `Invasor`:
 
+<img src="https://img.shields.io/badge/LOADER:-093fb9.svg"> Incluye un loader que carga y ejecuta el módulo Encrypt.dll directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa.
+
+<img width="514" height="108" alt="1" src="https://github.com/user-attachments/assets/50255840-85f2-446f-9a73-c3ef67432f98" />
+
+<h1 align="center"></h1>
+
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil. La encriptación es de tipo <ins>parcial</ins>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado.
 
 <img width="730" height="258" alt="extensiones" src="https://github.com/user-attachments/assets/0a50b80b-fba4-4ff1-b9a4-fd52b62f95b1" />

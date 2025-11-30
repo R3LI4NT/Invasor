@@ -163,7 +163,7 @@ El archivo `system_discovery.txt` es envíado al canal de Telegram.
 
 <img width="619" height="557" alt="7" src="https://github.com/user-attachments/assets/fc0043f2-0472-4249-b503-83fa1945fd8f" />
 
-5. `Ofuscación de comandos y múltiples métodos`: Esconde los comandos (hex, concatenación, scripts codificados Base64) y usa varias rutas para cada acción (cmd, PowerShell, COM, WMI), garantizando que se ejecute aunque falle un método.
+5. `Ofuscación de comandos y múltiples métodos`: Esconde los comandos (hex, concatenación, scripts codificados Base64) y usa varias rutas para cada acción (cmd, PowerShell, COM, WMI), garantizando que se ejecute aunque falle un método. El código emplea técnicas de polimorfismo.
 
 <h1 align="center"></h1>
 

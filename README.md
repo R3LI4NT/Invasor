@@ -60,7 +60,7 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <img src="https://img.shields.io/badge/DESENCRIPTACIÓN:-093fb9.svg"> Invasor cuenta con un Desencriptador GUI para recuperar los archivos encriptados, permite desencriptar por lote o por archivo individual.
 
-<img width="476" height="520" alt="8" src="https://github.com/user-attachments/assets/e3c9d7bc-ad10-4d16-a4e9-ca9d94caf5cb" />
+<img width="676" height="724" alt="Decrypter" src="https://github.com/user-attachments/assets/538a636a-4c11-4506-91ef-89778e4d4def" />
 
 <h1 align="center"></h1>
 

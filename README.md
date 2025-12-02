@@ -64,13 +64,23 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/STEALER:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al canal de Telegram. Utiliza Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer. La mayoría de los Ransomwares emplean esta técnica para presionar a la víctima y que pagué el rescate, de no hacerlo se filtra la información.
+<img src="https://img.shields.io/badge/STEALERS:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al atacante.
+
+`Stealer 1- Telegram:` Utiliza Telegram como C&C dificulta a los mecanismos de seguridad que detecten la presencia del Stealer. La mayoría de los Ransomwares emplean esta técnica para presionar a la víctima y que pagué el rescate, de no hacerlo se filtra la información.
 
 <img width="1265" height="588" alt="Stealer" src="https://github.com/user-attachments/assets/5dfa51e2-4025-4127-9f50-e9daeca66f10" />
 
 Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de que el comprimido supere los 3.8GB, se envían por partes.
 
 <img width="662" height="275" alt="Stealer_Diagrama" src="https://github.com/user-attachments/assets/8a3470dc-7c33-4c71-b233-9586ce986c66" />
+
+`Stealer 2- RClone:` Utiliza RClone para sincronizar los archivos a la nube (API Drive) antes de encriptarlos, permite subir grandes volúmenes de archivos simultáneamente. RClone es un software legítimo, no es detectado como malware.
+
+<img width="1029" height="542" alt="Stealer-2" src="https://github.com/user-attachments/assets/87ecc85a-9e56-46f6-80d0-2dfb73d1df81" />
+
+Se le puede especificar que directorios y archivos debe exfiltrar.
+
+<img width="771" height="455" alt="Stealer-3" src="https://github.com/user-attachments/assets/377abbb4-601c-4cfc-9ee9-070f9461a3bd" />
 
 <h1 align="center"></h1>
 

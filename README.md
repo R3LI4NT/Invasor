@@ -32,7 +32,7 @@
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil. La encriptación es de tipo <ins>parcial</ins>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado.
 
 <img width="730" height="258" alt="extensiones" src="https://github.com/user-attachments/assets/0a50b80b-fba4-4ff1-b9a4-fd52b62f95b1" />
-<img width="1365" height="723" alt="wallpaper" src="https://github.com/user-attachments/assets/79134908-2bc3-4733-ae92-c17722d0ef0b" />
+<img width="1365" height="728" alt="wallpaper" src="https://github.com/user-attachments/assets/cc236d78-71c2-4ad1-a9ba-4a237a52acfd" />
 
 Cuenta con una funcionalidad de exclusión de archivos para evitar que el Ransomware encripte archivos y carpetas críticos del sistema que podrían dañar el sistema operativo. La lista puede ser modificada según las necesidades del atacante.
 

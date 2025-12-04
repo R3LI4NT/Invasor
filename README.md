@@ -27,6 +27,11 @@
 
 <img src="https://img.shields.io/badge/LOADER:-093fb9.svg"> Incluye un loader que carga y ejecuta los módulos `Encrypt.dll`, `SystemDiscovery.dll`  y `RClone.dll` directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa. Para reforzar la protección, el archivo .DLL es ofuscado empleando múltiples técnicas (**Strings Encryption, Control Flow Obfuscation, Resource Encryption, Dead Code Injection, Metadata Pruning, Linking, PreMark, Anti-Debug, etc**).
 
+`Invasor - Steps`
+
+<img width="738" height="661" alt="Invasor-Steps" src="https://github.com/user-attachments/assets/4006be08-c2ac-4d45-87dc-82f7f7997650" />
+
+
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente imposible. La encriptación es de tipo <ins>parcial</ins>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado.

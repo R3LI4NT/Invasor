@@ -29,7 +29,7 @@
 
 `Invasor - Steps`
 
-<img width="538" height="461" alt="Invasor-Steps" src="https://github.com/user-attachments/assets/4006be08-c2ac-4d45-87dc-82f7f7997650" />
+<img width="538" height="481" alt="Invasor-Steps" src="https://github.com/user-attachments/assets/4006be08-c2ac-4d45-87dc-82f7f7997650" />
 
 
 <h1 align="center"></h1>

@@ -189,7 +189,7 @@ Libera recursos del sistema:
 - Libera CPU: Procesos como Chrome, Photoshop usan mucha CPU
 - Libera disco: Procesos que escriben/leen disco
 
-`PREVIENE INTERRUPCIÓN`
+`PREVIENE INTERRUPCIÓN`</br>
 **Elimina amenazas:**
 - Task Manager: Usuario no puede ver/kill proceso ransomware
 - Process Explorer: Herramientas de sysadmin

@@ -190,7 +190,7 @@ Libera recursos del sistema:
 - Libera disco: Procesos que escriben/leen disco
 
 `PREVIENE INTERRUPCIÓN`
-Elimina amenazas:
+**Elimina amenazas:**
 - Task Manager: Usuario no puede ver/kill proceso ransomware
 - Process Explorer: Herramientas de sysadmin
 - RDP/Session managers: Evita que admin remoto intervenga

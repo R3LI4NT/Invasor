@@ -183,20 +183,20 @@ El archivo `system_discovery.txt` es envíado al canal de Telegram.
 
 <img src="https://img.shields.io/badge/PAYLOAD 3)-PROCESS KILLER-093fb9.svg"> Se implemento un módulo "ProcessKiller" encargado de matar procesos del sistema para optimizar la disponibilidad de memoria y capacidad de procesamiento para el módulo de encript. De esta manera, el Ransomware obtiene los siguientes beneficios en su proceso de ejecución:
 
-**ACELERA EL CIFRADO EXPONENCIALMENTE**
+`ACELERA EL CIFRADO EXPONENCIALMENTE`
 Libera recursos del sistema:
 - Libera RAM: Al matar procesos, más memoria para cifrado
 - Libera CPU: Procesos como Chrome, Photoshop usan mucha CPU
 - Libera disco: Procesos que escriben/leen disco
 
-**PREVIENE INTERRUPCIÓN**
+`PREVIENE INTERRUPCIÓN`
 Elimina amenazas:
 - Task Manager: Usuario no puede ver/kill proceso ransomware
 - Process Explorer: Herramientas de sysadmin
 - RDP/Session managers: Evita que admin remoto intervenga
 - Cloud sync: Dropbox, Google Drive, OneDrive (evita sync de archivos sanos)
 
-**EVITA RECUPERACIÓN**
+`EVITA RECUPERACIÓN`
 Bloquea software de recuperación:
 - Shadow Copy: Mata vssadmin.exe para borrar snapshots
 - System Restore: Impide creación de puntos de restauración

@@ -52,6 +52,16 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <h1 align="center"></h1>
 
+<img src="https://img.shields.io/badge/VPS Server:-093fb9.svg"> Invasor tiene contratado un servicio VPS con ubicación en un país conflictivo. El hecho de que se utilice un VPS localizado en un país conflictivo le proporciona una cobertura jurídica. Las agencias de inteligencia tendrán grandes dificultades para requerir datos sobre el Ransomware a las autoridades de esa nación, obstruyendo la investigación.
+
+El VPS se utiliza para:
+
+1- Almacenaje de claves para el desencriptador.
+<img width="1226" height="382" alt="vps-server" src="https://github.com/user-attachments/assets/775fb951-f0b7-43cc-a7c2-a6d07794468a" />
+
+
+<h1 align="center"></h1>
+
 <img src="https://img.shields.io/badge/RESCATE:-093fb9.svg"> Una vez finalizado el proceso de encriptación, Invasor genera un archivo interactivo denominado `Invasor-decrypt-files.html` en el escritorio del usuario, donde se detallan los pasos necesarios para obtener el desencriptador.
 
 <img width="600" height="300" alt="Note-1" src="https://github.com/user-attachments/assets/290ec627-6a4a-4609-8e89-bf99abf9765a" />

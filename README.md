@@ -52,7 +52,7 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/VPS Server:-093fb9.svg"> Invasor tiene contratado un servicio VPS seguro con ubicación en un país conflictivo. El hecho de que se utilice un VPS localizado en un país conflictivo le proporciona una cobertura jurídica. Las agencias de inteligencia tendrán grandes dificultades para requerir datos sobre el Ransomware a las autoridades de esa nación, obstruyendo la investigación.
+<img src="https://img.shields.io/badge/VPS SERVER:-093fb9.svg"> Invasor tiene contratado un servicio VPS seguro con ubicación en un país conflictivo. El hecho de que se utilice un VPS localizado en un país conflictivo le proporciona una cobertura jurídica. Las agencias de inteligencia tendrán grandes dificultades para requerir datos sobre el Ransomware a las autoridades de esa nación, obstruyendo la investigación.
 
 El VPS se utiliza para:
 

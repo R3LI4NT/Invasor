@@ -66,6 +66,8 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <img width="478" height="716" alt="Decrypt-INVASOR" src="https://github.com/user-attachments/assets/14ba5475-de19-4b53-b5a7-068ae74ae90d" />
 
+https://github.com/user-attachments/assets/42b75fec-c052-4d64-a9e1-199a2e74d9b0
+
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/STEALERS:-093fb9.svg"> Antes de encriptar los archivos, hace una búsqueda recursivamente de archivos sensibles para luego ser enviados al atacante.

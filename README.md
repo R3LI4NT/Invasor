@@ -48,7 +48,7 @@ Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin 
 
 Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
-<img width="1365" height="647" alt="Telegram-Keys" src="https://github.com/user-attachments/assets/b7b280cd-aed9-4d5f-9995-91f68bdd6f43" />
+<img width="1364" height="646" alt="Telegram-Keys" src="https://github.com/user-attachments/assets/9a3f6579-7eba-4070-a92f-99815a8405a2" />
 
 <h1 align="center"></h1>
 

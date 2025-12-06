@@ -66,7 +66,7 @@ Si el servidor SMTP falla, envía la clave al canal de Telegram.
 
 <img width="478" height="716" alt="Decrypt-INVASOR" src="https://github.com/user-attachments/assets/14ba5475-de19-4b53-b5a7-068ae74ae90d" />
 
-https://github.com/user-attachments/assets/42b75fec-c052-4d64-a9e1-199a2e74d9b0
+https://github.com/user-attachments/assets/f31e48cb-b8b1-40eb-aba2-bfbb7284d594
 
 <h1 align="center"></h1>
 

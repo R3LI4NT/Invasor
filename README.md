@@ -60,7 +60,7 @@ El VPS se utiliza para:
 <img width="1226" height="382" alt="vps-server" src="https://github.com/user-attachments/assets/775fb951-f0b7-43cc-a7c2-a6d07794468a" />
 
 2- Gestión del Backdoor C2 con certificado SSL/TLS válidos disponible 24/7.
-<img width="865" height="592" alt="Backdoor" src="https://github.com/user-attachments/assets/ddbb7871-4a6c-4164-9376-0a41ac8564ce" />
+<img width="665" height="492" alt="Backdoor" src="https://github.com/user-attachments/assets/ddbb7871-4a6c-4164-9376-0a41ac8564ce" />
 
 <h1 align="center"></h1>
 

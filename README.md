@@ -227,7 +227,7 @@ ProcessKiller incorporá una WhiteList con aquellos procesos que considera crít
 
 Utiliza métodos de descarga alternativos como HttpClient, WebClient y Certutil.exe por si alguno falla. Emplea cuatro métodos de extracción para descomprimir el zip (Backdoor) que son System.IO.Compression (Nativo de .NET), Powershell, Shell COM (Windows Shell) y 7-Zip por si alguno falla. El Backdoor se auto-ejecuta y luego ejecuta múltiples intentos de eliminación para borrar evidencias.
 
-Ciclo de vida: Descarga → 2. Extracción → 3. Ejecución → 4. Eliminación
+Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 4. Eliminación
 
 </br>
 

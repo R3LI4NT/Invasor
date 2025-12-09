@@ -224,7 +224,10 @@ ProcessKiller incorporá una WhiteList con aquellos procesos que considera crít
 <img src="https://img.shields.io/badge/PAYLOAD 4)-PERSISTENCIA-093fb9.svg"> Invasor despliega técnicas de persistencia para garantizar el control remoto en equipos infectados.
 
 `Backdoor`: Módulo **Backdoor[svchost.dll]** - Dropper encargado de descargar y ejecutar <a href="https://github.com/R3LI4NT/XilentDoor">XilentDoor</a> en el equipo del usuario, proporcionando movimiento lateral. 
+
 Utiliza métodos de descarga alternativos como HttpClient, WebClient y Certutil.exe por si alguno falla. Emplea cuatro métodos de extracción para descomprimir el zip (Backdoor) que son System.IO.Compression (Nativo de .NET), Powershell, Shell COM (Windows Shell) y 7-Zip por si alguno falla. El Backdoor se auto-ejecuta y luego ejecuta múltiples intentos de eliminación para borrar evidencias.
+
+</br>
 
 `RDP`: Implementar la opción de Escritorio Remoto -> en construcción...
 <h1 align="center"></h1>

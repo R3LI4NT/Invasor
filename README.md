@@ -25,7 +25,7 @@
 
 ### Características de `Invasor`:
 
-<img src="https://img.shields.io/badge/LOADER:-093fb9.svg"> Incluye un loader que carga y ejecuta los módulos [`EncryptModule.dll`, `SystemDiscovery.dll`, `ProcessKiller.dll`, `RClone.dll`, `Remover.dll`]  directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa. Para reforzar la protección, el archivo .DLL es ofuscado empleando múltiples técnicas (**Strings Encryption, Control Flow Obfuscation, Resource Encryption, Dead Code Injection, Metadata Pruning, Linking, PreMark, Anti-Debug, etc**).
+<img src="https://img.shields.io/badge/LOADER:-093fb9.svg"> Incluye un loader que carga y ejecuta los módulos [`EncryptModule.dll`, `SystemDiscovery.dll`, `ProcessKiller.dll`, `RClone.dll`, `Remover.dll`, `Backdoor[svchost.dll]`]  directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa. Para reforzar la protección, el archivo .DLL es ofuscado empleando múltiples técnicas (**Strings Encryption, Control Flow Obfuscation, Resource Encryption, Dead Code Injection, Metadata Pruning, Linking, PreMark, Anti-Debug, etc**).
 
 `Invasor - Steps`: Conseguir los siguientes objetivos.
 
@@ -219,7 +219,13 @@ ProcessKiller incorporá una WhiteList con aquellos procesos que considera crít
 
 <img width="405" height="400" alt="WhiteList" src="https://github.com/user-attachments/assets/3757930a-954b-47fb-9a86-b127dcb87149" />
 
+<h1 align="center"></h1>
 
+<img src="https://img.shields.io/badge/PAYLOAD 4)-PERSISTENCIA-093fb9.svg"> Invasor despliega técnicas de persistencia para garantizar el control remoto en equipos infectados.
+
+`Backdoor`: Módulo Backdoor[svchost.dll] - Dropper encargado de descargar y ejecutar <a href="https://github.com/R3LI4NT/XilentDoor">XilentDoor</a> en el equipo del usuario, proporcionando movimiento lateral. Utiliza métodos de descarga alternativos como HttpClient, WebClient y Certutil.exe por si alguno falla. Emplea cuatro métodos de extracción para descomprimir el zip (Backdoor) que son System.IO.Compression (Nativo de .NET), Powershell, Shell COM (Windows Shell) y 7-Zip por si alguno falla. El Backdoor se auto-ejecuta y luego ejecuta múltiples intentos de eliminación para borrar evidencias.
+
+`RDP`: Implementar la opción de Escritorio Remoto -> en construcción...
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversing, los AV no pueden estudiar fácilmente el código.

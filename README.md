@@ -229,9 +229,6 @@ Utiliza métodos de descarga alternativos como HttpClient, WebClient y Certutil.
 
 Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 4. Eliminación
 
-</br>
-
-`RDP`: Implementar la opción de Escritorio Remoto -> en construcción...
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversing, los AV no pueden estudiar fácilmente el código.

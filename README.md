@@ -183,7 +183,7 @@ https://github.com/user-attachments/assets/be25f8a7-6240-4fd2-a245-71ede1b3e075
 - Programas detectados via WMI
 - Nombre, versión, fabricante, fecha de instalación
 
-El archivo `system_discovery_{DateTime.Now:yyyyMMdd_HHmmss}.html` es almacenado en memoria y sobreescrito con datos aleatorios luego de ser envíado al canal de Telegram.
+El archivo `system_discovery_{DateTime.Now:yyyyMMdd_HHmmss}.html` es almacenado en memoria y sobrescrito con datos aleatorios luego de ser envíado al canal de Telegram.
 
 <img width="1365" height="638" alt="System-Discovery-1" src="https://github.com/user-attachments/assets/c4cbca7a-06b5-419d-89b3-590e6f90ba21" />
 

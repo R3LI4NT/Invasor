@@ -118,55 +118,74 @@ https://github.com/user-attachments/assets/be25f8a7-6240-4fd2-a245-71ede1b3e075
 
 <img src="https://img.shields.io/badge/PAYLOAD 1)-DISCOVERY-093fb9.svg"> Se diseño un herramienta de recolección de información del sistema que realiza un análisis comprehensivo del equipo infectado, recolectando datos como:
 
-**1. Información Básica del Sistema:**
-- Nombre de máquina y usuario
-- Versión del sistema operativo y arquitectura (32/64 bits)
-- Información de memoria (RAM física y virtual)
-- Procesadores (cantidad, arquitectura, páginas)
+**1. INFORMACIÓN BÁSICA DEL SISTEMA:**
+- Nombre de la máquina
+- Nombre de usuario actual
+- Dominio/usuario de Windows
+- Versión del sistema operativo
+- Arquitectura (32/64 bits)
+- Directorio actual
+- Directorio del sistema
+- Número de procesadores
+- Memoria RAM en uso
+- Tiempo de actividad del sistema
 
-**2. Análisis de Hardware:**
+**2. ANÁLISIS DE HARDWARE COMPLETO:**
+- Procesador: Nombre, velocidad, núcleos, procesadores lógicos
+- Memoria RAM: Total, disponible, porcentaje de uso
+- Discos duros: Todos los discos, tamaño, espacio libre, sistema de archivos
 - Fabricante y modelo del equipo
-- Procesador: nombre, velocidad, núcleos, procesadores lógicos
-- Discos duros: tamaño, espacio libre, sistema de archivos, tipo de unidad
-- Memoria RAM: total, disponible, carga de memoria
+- Motherboard/Sistema completo
 
-**3. Información de Red:**
-- Hostname y direcciones IP locales
-- Interfaces de red: nombre, tipo, estado, velocidad
+**3. INFORMACIÓN DE RED DETALLADA:**
+- Hostname del equipo
+- Todas las direcciones IP (IPv4 e IPv6)
+- Interfaces de red: Nombre, tipo, estado, velocidad
 - Direcciones MAC de cada interfaz
-- Configuración de red: gateways, servidores DNS
-- Conexiones TCP activas: IP local/remota, puertos, estado, PID
+- Gateways configurados
+- Servidores DNS
+- Conexiones TCP activas: IPs locales/remotas, puertos, estado, PID del proceso
 
-**4. Usuarios y Grupos:**
+**4. USUARIOS Y GRUPOS:**
 - Usuario actual: SID, tipo de autenticación
-- Grupos de usuario pertenecientes
-- Usuarios locales del sistema
-- Información de dominio (si está unido a dominio)
+- Grupos del usuario: Todos los grupos de seguridad
+- Usuarios locales: Todos los usuarios del sistema
+- Información de dominio (si está unido)
 
-**5. Procesos y Servicios:**
-- Procesos en ejecución: nombre, PID, uso de memoria
-- Servicios de Windows: nombre, estado, modo de inicio, ruta
-- Limitado a 100 procesos para evitar saturación
+**5. PROCESOS Y SERVICIOS:**
+- Todos los procesos en ejecución (sin límite)
+- PID, nombre, memoria usada, sesión
+- Todos los servicios de Windows
+- Nombre, estado, modo de inicio, ruta
 
-**6. Active Directory:**
+**6. ACTIVE DIRECTORY (si aplica):**
 - Detección de unión a dominio
-- Nombre del dominio y rol
-- Información adicional via WMI
+- Nombre del dominio
+- Rol del equipo en el dominio
 
-**7. Seguridad del Sistema:**
+**7. INFORMACIÓN DE SEGURIDAD:**
 - Estado de UAC (User Account Control)
 - Tipo de producto Windows
 - Firewall instalado
 - Políticas de seguridad
 
-**8. Registro de Windows:**
+**8. REGISTRO DE WINDOWS:**
 - Entradas de autoarranque (Run, RunOnce)
 - Programas instalados (desde registro)
-- Software detallado (via WMI)
+- Software detectado via WMI
 
-El archivo `system_discovery.txt` es envíado al canal de Telegram.
+**9. SMB SHARES (RECURSOS COMPARTIDOS):**
+- Shares locales: ADMIN$, C$, IPC$, carpetas compartidas
+- Tipos: Discos, impresoras, IPC, dispositivos
+- Información de acceso y permisos
 
-<img width="1365" height="716" alt="SystemDiscovery" src="https://github.com/user-attachments/assets/b96e2454-40f6-44da-bc1e-ba505bc1da38" />
+**10. SOFTWARE INSTALADO:**
+- Programas detectados via WMI
+- Nombre, versión, fabricante, fecha de instalación
+
+El archivo `system_discovery_{DateTime.Now:yyyyMMdd_HHmmss}.html` es almacenado en memoria y sobreescrito con datos aleatorios luego de ser envíado al canal de Telegram.
+
+<img width="1365" height="638" alt="System-Discovery-1" src="https://github.com/user-attachments/assets/c4cbca7a-06b5-419d-89b3-590e6f90ba21" />
 
 <h1 align="center"></h1>
 

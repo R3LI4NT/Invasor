@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img width="200" height="350" alt="Invasor-2" src="https://github.com/user-attachments/assets/2b8c8d9f-102e-4e7c-9bf0-562b41c7cea2" />
+  <img width="200" height="350" alt="Invasor-2" src="https://github.com/user-attachments/assets/b65a0100-e101-415e-9a0f-7fddbdec03b4" />
 </p>
 
 <p align="center">

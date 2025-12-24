@@ -44,7 +44,7 @@ Cuenta con una funcionalidad de exclusión de archivos para evitar que el Ransom
 
 Para mayor seguridad, la clave AES es cifrada utilizando ECC (Curva P-256), sin la clave ECC Privada el usuario final no podrá desencriptar los archivos. Son envíadas al atacante desde un servidor SMTP. La clave AES + ECC privada se sobrescriben tres veces con datos aleatorios y posteriormente con patrones de ceros y unos; finalmente, los archivos se trunca a 0 bytes antes de su eliminación. Este proceso de sobreescritura dificulta en extremo cualquier intento de recuperación forense.
 
-<img width="1143" height="368" alt="3" src="https://github.com/user-attachments/assets/9a8c7bbc-bce7-4a82-80f0-6aca48bc0166" />
+<img width="1151" height="462" alt="SMTP" src="https://github.com/user-attachments/assets/c36d3bd1-9d7c-481f-9b91-605da78536f2" />
 
 Si el servidor SMTP falla, envía la clave al canal de Telegram.
 

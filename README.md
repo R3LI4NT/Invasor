@@ -256,7 +256,9 @@ https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/E-BOOK)-093fb9.svg"> Invasor despliega técnicas de persistencia para garantizar el control remoto en equipos infectados.
+<img src="https://img.shields.io/badge/E-BOOK)-093fb9.svg"> Se está trabajando en un E-Book para documentar y organizar el Ransomware. 
+
+<img width="1060" height="888" alt="ebook-design" src="https://github.com/user-attachments/assets/1e565d07-4ca6-4a5f-8397-442c7761b13e" />
 
 <h1 align="center"></h1>
 

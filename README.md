@@ -258,7 +258,7 @@ https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 
 <img src="https://img.shields.io/badge/E-BOOK:-093fb9.svg"> Se está trabajando en un E-Book para documentar y organizar el Ransomware. 
 
-<img width="360" height="588" alt="ebook-design-2" src="https://github.com/user-attachments/assets/78b5fb27-86e6-4bd8-97b2-693c9e963cca" />
+<img width="460" height="688" alt="ebook-design-2" src="https://github.com/user-attachments/assets/78b5fb27-86e6-4bd8-97b2-693c9e963cca" />
 
 <h1 align="center"></h1>
 

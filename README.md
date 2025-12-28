@@ -250,7 +250,7 @@ Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. **Ventajas**: Dificulta el análisis y reversing, los AV no pueden estudiar fácilmente el código.
+<img src="https://img.shields.io/badge/AntiVM:-093fb9.svg"> Antes de comenzar la encriptación, verifica si se ejecuta en máquina virtual y se auto-termina si detecta entorno virtual. 
 
 https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 

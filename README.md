@@ -254,7 +254,7 @@ Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 
 
 <img width="1364" height="721" alt="BYOVD-1" src="https://github.com/user-attachments/assets/4de93ecc-7838-4602-813d-4bbb2d52ca42" />
 
-Por defecto mata 180 procesos, estos pueden ser modificables según las necesidades. El proceso de ejecución de `NSecKiller.dll` es simple: descarga **7z.exe + updateWindows.zip**; a continuación, utiliza **7-Zip** en modo línea de comandos para descomprimir el archivo, el cual contiene el controlador vulnerable que será instalado. Una vez cargado en el sistema, el módulo lanza múltiples hilos para finalizar de forma concurrente todos los procesos definidos en la lista.
+Por defecto mata 180 procesos, estos pueden ser modificables según las necesidades. El proceso de ejecución de `NSecKiller.dll` es simple: descarga **7z.exe + updateWindows.zip** en la ruta temporal del usuario; a continuación, utiliza **7-Zip** en modo línea de comandos para descomprimir el archivo, el cual contiene el controlador vulnerable que será instalado. Una vez cargado en el sistema, el módulo lanza múltiples hilos para finalizar de forma concurrente todos los procesos definidos en la lista. Una vez que haya cumplido el ciclo, elimina las evidencias.
 
 <img width="1099" height="611" alt="BYOVD-2" src="https://github.com/user-attachments/assets/09a0cd45-d124-41a1-9224-590bc01e8823" />
 

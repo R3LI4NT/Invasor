@@ -279,3 +279,4 @@ Contacto:
 
 <img src="https://img.shields.io/badge/invasor.support@onionmail.org-0239A4?style=for-the-badge&logo=gmail&logoColor=white" />
 
+> Fecha de creación: Principios de Noviembre 2025

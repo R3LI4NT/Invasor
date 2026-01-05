@@ -263,7 +263,7 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 <img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg"> Se desarrollo un módulo llamado `SMBSpreader` encargado de infectar con el Ransomware a otros equipos en la red usando la propagación del protocolo SMB.
 
 `FASE 0: PREPARACIÓN`
-- Descargar 7zr.exe y el loader.zip + PAExec.exe.
+- Descarga 7zr.exe, el loader.zip + PAExec.exe.
 
 `FASE 1: ESCANEO DE RED`
 - Descubre hosts activo en la red local (ping sweep).
@@ -290,6 +290,11 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 - Sobrescritura DoD 5220.22-M (3 pasadas de datos aleatorios).
 - Eliminación segura de archivos temporales.
 - Limpieza de rastros en sistema temp.
+
+<img width="1304" height="642" alt="SMBSpreader-1" src="https://github.com/user-attachments/assets/a43cd82e-1102-479d-a52d-5487e13482de" />
+<img width="1199" height="680" alt="SMBSpreader-2" src="https://github.com/user-attachments/assets/9ac2bd94-8ed3-4d89-9659-a4477685a278" />
+<img width="1258" height="692" alt="SMBSpreader-3" src="https://github.com/user-attachments/assets/0729ad1a-8ef9-4ab3-bec7-908444ab2685" />
+<img width="620" height="192" alt="SMBSpreader-4" src="https://github.com/user-attachments/assets/81308cf7-e0f8-45c5-8263-6f595a7cbf96" />
 
 <h1 align="center"></h1>
 

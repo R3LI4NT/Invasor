@@ -260,7 +260,7 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO-LATERAL-093fb9.svg">
+<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg">
 
 <h1 align="center"></h1>
 

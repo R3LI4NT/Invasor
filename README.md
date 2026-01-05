@@ -260,7 +260,36 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg">
+<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg"> Se desarrollo un módulo llamado `SMBSpreader` encargado de infectar con el Ransomware a otros equipos en la red usando la propagación del protocolo SMB.
+
+`FASE 0: PREPARACIÓN`
+- Descargar 7zr.exe y el loader.zip + PAExec.exe.
+
+`FASE 1: ESCANEO DE RED`
+- Descubre hosts activo en la red local (ping sweep).
+- Escaneo multi-hilo (50 hilos concurrentes).
+
+`FASE 2: DETECCIÓN SMB`
+- Prueba puerto 445 en hosts activos.
+- Identifica equipos vulnerables con SMB habilitado.
+- Filtra solo sistemas accesibles.
+
+`FASE 3: ATAQUE Y PROPAGACIÓN`
+- Enumeración de shares - Busca carpetas compartidas.
+
+**Ataque en dos fases:**
+- Acceso sin credenciales: Prueba shares abiertos (ADMIN$, C$, etc.).
+- Brute force: Prueba combinaciones usuario/contraseña débiles.
+
+**Despliegue con PAExec:**
+- Copia el payload al share accesible.
+- Ejecuta remotamente usando PAExec.
+- El payload se ejecuta como servicio oculto.
+
+`FASE 4: LIMPIEZA ANTIFORENSE`
+- Sobrescritura DoD 5220.22-M (3 pasadas de datos aleatorios).
+- Eliminación segura de archivos temporales.
+- Limpieza de rastros en sistema temp.
 
 <h1 align="center"></h1>
 

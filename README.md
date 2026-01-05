@@ -293,8 +293,8 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 
 <img width="1304" height="642" alt="SMBSpreader-1" src="https://github.com/user-attachments/assets/a43cd82e-1102-479d-a52d-5487e13482de" />
 <img width="1199" height="680" alt="SMBSpreader-2" src="https://github.com/user-attachments/assets/9ac2bd94-8ed3-4d89-9659-a4477685a278" />
-<img width="1258" height="692" alt="SMBSpreader-3" src="https://github.com/user-attachments/assets/0729ad1a-8ef9-4ab3-bec7-908444ab2685" />
-<img width="620" height="192" alt="SMBSpreader-4" src="https://github.com/user-attachments/assets/81308cf7-e0f8-45c5-8263-6f595a7cbf96" />
+<img width="1258" height="692" alt="SMBSpreader-3" src="https://github.com/user-attachments/assets/080b996a-69e6-4c38-bb01-d08a93202c56" />
+<img width="420" height="152" alt="SMBSpreader-4" src="https://github.com/user-attachments/assets/81308cf7-e0f8-45c5-8263-6f595a7cbf96" />
 
 <h1 align="center"></h1>
 

@@ -260,7 +260,7 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg"> Se desarrollo un módulo llamado `SMBSpreader` encargado de infectar con el Ransomware a otros equipos en la red usando la propagación del protocolo SMB.
+<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO LATERAL-093fb9.svg"> Se desarrollo un módulo llamado `SMBSpreader` encargado de infectar con el Ransomware a otros equipos en la red a través del protocolo SMB.
 
 `FASE 0: PREPARACIÓN`
 - Descarga 7zr.exe, el loader.zip + PAExec.exe.

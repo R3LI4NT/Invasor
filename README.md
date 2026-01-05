@@ -258,6 +258,9 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 
 <img width="1099" height="611" alt="BYOVD-2" src="https://github.com/user-attachments/assets/09a0cd45-d124-41a1-9224-590bc01e8823" />
 
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/PAYLOAD 6)-MOVIMIENTO-LATERAL-093fb9.svg">
 
 <h1 align="center"></h1>
 

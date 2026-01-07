@@ -285,7 +285,6 @@ Por defecto mata 180 procesos, estos pueden ser modificables según las necesida
 **Despliegue con PAExec:**
 - Copia el payload al share accesible.
 - Ejecuta remotamente usando PAExec.
-- El payload se ejecuta como servicio oculto.
 
 `FASE 4: LIMPIEZA ANTIFORENSE`
 - Sobrescritura DoD 5220.22-M (3 pasadas de datos aleatorios).

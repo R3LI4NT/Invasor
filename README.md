@@ -320,6 +320,6 @@ Contacto:
 </br>
 
 > [!NOTE]
-> Invasor esta programado en C#, sin utilizar código de otras muestras conocidas, kits de construcción o fragmentos reutilizados. Por lo tanto, su código fuente es único y privado. Cuenta con una versión inofensiva diseñada para Simulacros de Ransomware sin comprometer la infraestructura.
+> Invasor esta programado en C#, sin utilizar código de otras muestras conocidas, kits de construcción o fragmentos reutilizados. Por lo tanto, su código fuente es único y privado. Cuenta con una versión inofensiva diseñada para Simulacros de Ransomware, full personalizable sin comprometer la infraestructura.
 
 > Fecha de creación: Principio de Noviembre 2025

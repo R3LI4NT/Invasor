@@ -253,9 +253,9 @@ Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 
 
 <img src="https://img.shields.io/badge/PAYLOAD 5)-EVASIÓN-093fb9.svg"> Emplea la técnica **BYOVD** (Bring Your Own Vulnerable Driver) para desplegar tácticas de EDR Killer, permitiendo la finalización de procesos de antivirus que podrían impedir la ejecución de Invasor.
 
-<img width="1364" height="721" alt="BYOVD-1" src="https://github.com/user-attachments/assets/4de93ecc-7838-4602-813d-4bbb2d52ca42" />
+<img width="1364" height="721" alt="530585684-4de93ecc-7838-4602-813d-4bbb2d52ca42" src="https://github.com/user-attachments/assets/a62a6a0a-826f-4c07-8df0-938ccf6eeba3" />
 
-Por defecto mata 180 procesos, estos pueden ser modificables según las necesidades. El proceso de ejecución de `NSecKiller.dll` es simple: descarga **7z.exe + updateWindows.zip** en la ruta temporal del usuario; a continuación, utiliza **7-Zip** en modo línea de comandos para descomprimir el archivo, el cual contiene el controlador vulnerable que será instalado. Una vez cargado en el sistema, el módulo lanza múltiples hilos para finalizar de forma concurrente todos los procesos definidos en la lista. Una vez que haya cumplido el ciclo, elimina las evidencias.
+Por defecto mata 180 procesos, estos pueden ser modificables según las necesidades. El proceso de ejecución de `EDRKiller.dll` es simple: descarga **7z.exe + updateWindows.zip** en la ruta temporal del usuario; a continuación, utiliza **7-Zip** en modo línea de comandos para descomprimir el archivo, el cual contiene el controlador vulnerable que será instalado. Una vez cargado en el sistema, el módulo lanza múltiples hilos para finalizar de forma concurrente todos los procesos definidos en la lista. Una vez que haya cumplido el ciclo, elimina las evidencias.
 
 <img width="1099" height="611" alt="BYOVD-2" src="https://github.com/user-attachments/assets/09a0cd45-d124-41a1-9224-590bc01e8823" />
 

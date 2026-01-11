@@ -257,7 +257,7 @@ Ciclo de vida: 1. Descarga **→** 2. Extracción **→** 3. Ejecución **→** 
 
 Por defecto mata 180 procesos, estos pueden ser modificables según las necesidades. El proceso de ejecución de `EDRKiller.dll` es simple: descarga **7z.exe + updateWindows.zip** en la ruta temporal del usuario; a continuación, utiliza **7-Zip** en modo línea de comandos para descomprimir el archivo, el cual contiene el controlador vulnerable que será instalado. Una vez cargado en el sistema, el módulo lanza múltiples hilos para finalizar de forma concurrente todos los procesos definidos en la lista. Una vez que haya cumplido el ciclo, elimina las evidencias.
 
-<img width="1099" height="611" alt="BYOVD-2" src="https://github.com/user-attachments/assets/09a0cd45-d124-41a1-9224-590bc01e8823" />
+<img width="1099" height="611" alt="edr_killer" src="https://github.com/user-attachments/assets/75232520-f79c-4eb0-83cd-3349a6c2bd39" />
 
 <h1 align="center"></h1>
 

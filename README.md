@@ -36,8 +36,7 @@
 
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-093fb9.svg"> Incluye una amplia variedad de extensiones a cifrar y utiliza el algoritmo AES-256, lo que hace que descifrar los archivos sin la clave sea prácticamente difícil. La encriptación es de tipo <ins>parcial</ins>: solo encripta el primer MB de cada archivo, suficiente para dejarlo corrupto y que la encriptación sea más rápida. La extensión original es guardada dentro del archivo encriptado. Detecta automáticamente si existen USB conectadas, si las hay, encripta todos los archivos que tiene dentro y crea archivo **autorun.inf** para mayor propagación; aplica también para versiones antiguas de Windows.
 
-<img width="1095" height="625" alt="encrypt" src="https://github.com/user-attachments/assets/9edd3e77-4974-4472-8cde-e1ae2cc21c93" />
-
+<img width="1095" height="625" alt="encrypt" src="https://github.com/user-attachments/assets/779d440b-b3a2-4104-8824-8fabb3fe5e14" />
 <img width="1365" height="728" alt="wallpaper" src="https://github.com/user-attachments/assets/cc236d78-71c2-4ad1-a9ba-4a237a52acfd" />
 
 Cuenta con una funcionalidad de exclusión de archivos para evitar que el Ransomware encripte archivos y carpetas críticos del sistema que podrían dañar el sistema operativo. La lista puede ser modificada según las necesidades del atacante.

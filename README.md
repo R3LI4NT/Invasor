@@ -29,8 +29,7 @@
 
 `Invasor - Steps`: Conseguir los siguientes objetivos.
 
-<img width="538" height="481" alt="Invasor-Steps" src="https://github.com/user-attachments/assets/2fd580a9-bff8-4684-becd-bc3879dcf6a3" />
-
+<img width="538" height="481" alt="Invasor-Steps" src="https://github.com/user-attachments/assets/6e0e1abf-a2ca-41b7-a6b0-47619b49a66f" />
 
 <h1 align="center"></h1>
 

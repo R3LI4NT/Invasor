@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasor Group - Servicios de Ciberseguridad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo-invasor-2.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="language-switcher" id="languageSwitcher">
+        <button class="language-btn" id="languageBtn" aria-label="Cambiar idioma">
+            <i class="fas fa-globe"></i>
+            <span class="language-text">ES</span>
+            <i class="fas fa-chevron-down language-arrow"></i>
+        </button>
+        <div class="language-dropdown" id="languageDropdown">
+            <button class="language-option active" data-lang="es">
+                <img src="https://flagcdn.com/w20/es.png" alt="Español" class="language-flag">
+                <span>Español</span>
+                <i class="fas fa-check check-icon" id="check-es"></i>
+            </button>
+            <button class="language-option" data-lang="en">
+                <img src="https://flagcdn.com/w20/us.png" alt="English" class="language-flag">
+                <span>English</span>
+                <i class="fas fa-check check-icon" id="check-en"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Header y Navegación -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="img/logo-invasor-6.png" alt="INVASOR RANSOMWARE Logo" class="logo-image">
+                </div>
+                <div class="logo-text">INVASOR&nbsp;<span>GROUP</span></div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menú de navegación">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio" data-translate="nav.home">Inicio</a></li>
+                <li><a href="#caracteristicas" data-translate="nav.features">Características</a></li>
+                <li><a href="#servicios" data-translate="nav.services">Servicios</a></li>
+                <li><a href="#como-funciona" data-translate="nav.how">Cómo Funciona</a></li>
+                <li>
+                    <a href="#contacto" class="cta-button menu-cta">
+                        <span data-translate="nav.contact">Contacto</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container hero-content">
+            <h1>
+                <span id="typewriter-text"></span>
+                <span class="cursor">|</span>
+            </h1>
+            <p data-translate="hero.description">Servicio legal de simulacros de ransomware para identificar vulnerabilidades y fortalecer tus defensas cibernéticas. Desarrollado en C# para máxima efectividad.</p>
+            <a href="#contacto" class="cta-button glow">
+                <span data-translate="hero.button">Solicitar Demostración</span>
+                <i class="fas fa-arrow-right button-icon"></i>
+            </a>
+            
+            <!-- Stats Section -->
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p data-translate="hero.stat1">Controlado y Seguro</p>
+                </div>
+                <div class="stat">
+                    <h3>24/7</h3>
+                    <p data-translate="hero.stat2">Soporte Especializado</p>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p data-translate="hero.stat3">Legal y Confidencial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrusel de Imágenes -->
+    <section class="image-carousel-section">
+        <div class="container">
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                </div>
+                <div class="disintegration-effect left"></div>
+                <div class="disintegration-effect right"></div>
+                
+                <!-- Botones de navegación -->
+                <button class="carousel-nav prev" aria-label="Slide anterior" id="carouselPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-nav next" aria-label="Slide siguiente" id="carouselNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Indicadores del carrusel -->
+                <div class="carousel-indicators" id="carouselIndicators">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="caracteristicas">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="features.title">Características Principales</h2>
+                <p data-translate="features.subtitle">Invasor Ransomware está diseñado específicamente para pruebas de seguridad controladas y legales en entornos empresariales</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 data-translate="features.card1.title">100% Legal y Ético</h3>
+                    <p data-translate="features.card1.description">Nuestro software se utiliza exclusivamente bajo contrato para pruebas de penetración autorizadas, cumpliendo con todas las regulaciones de ciberseguridad internacionales.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-translate="features.card2.title">Desarrollado en C# .NET</h3>
+                    <p data-translate="features.card2.description">Construido con tecnología moderna en C# para garantizar compatibilidad, eficiencia y un comportamiento idéntico a ransomware reales de última generación.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-translate="features.card3.title">Seguro y Controlado</h3>
+                    <p data-translate="features.card3.description">Cada simulación incluye mecanismos de recuperación y nunca compromete datos reales. Todo el proceso es supervisado por expertos en ciberseguridad certificados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="services.title">Nuestros Servicios</h2>
+                <p data-translate="services.subtitle">Ofrecemos diferentes paquetes de pruebas de seguridad adaptados a las necesidades de tu organización</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3 data-translate="services.basic.title">Paquete Ransom</h3>
+                    </div>
+                    <div class="service-content">
+                        <p data-translate="services.basic.description">Ideal para pequeñas y medianas empresas que desean evaluar su resistencia básica ante ransomware.</p>
+                        <ul>
+                            <li data-translate="services.basic.item1">Simulación de Ransomware + Phishing</li>
+                            <li data-translate="services.basic.item2">Informe detallado de resultados</li>
+                        </ul>
+                        <a href="#contacto" class="cta-button service-btn">
+                            <span data-translate="services.basic.button">Solicitar Información</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="service-card featured">
+                    <div class="service-header">
+                        <h3 data-translate="services.pro.title">Paquete Pentest</h3>
+                        <span class="badge" data-translate="services.pro.badge">Más Popular</span>
+                    </div>
+                    <div class="service-content">
+                        <p data-translate="services.pro.description">Para organizaciones que requieren una evaluación exhaustiva de su infraestructura de seguridad.</p>
+                        <ul>
+                            <li data-translate="services.pro.item1">Pentesting Externo / Interno</li>
+                            <li data-translate="services.pro.item2">Pentesting Active Directory</li>
+                            <li data-translate="services.pro.item3">Informe detallado con plan de remediación</li>
+                        </ul>
+                        <a href="#contacto" class="cta-button service-btn featured-btn">
+                            <span data-translate="services.pro.button">Solicitar Información</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="report-generation-section">
+                <div class="report-content">
+                    <div class="report-text">
+                        <h3 class="report-title" data-translate="report.title"><i class="fas fa-file-alt" style="padding-right: 5px;"></i>Generación de Informes Técnicos</h3>
+                        <p class="report-description" data-translate="report.description">
+                            Tras completar nuestras pruebas de seguridad, generamos un informe técnico detallado 
+                            con todas las vulnerabilidades identificadas. Este documento profesional se entrega 
+                            al cliente e incluye análisis de riesgos, evidencia de las pruebas y recomendaciones 
+                            específicas para la remediación.
+                        </p>
+                        <ul class="report-features">
+                            <li><i class="fas fa-check-circle"></i> <span data-translate="report.feature1">Análisis detallado de vulnerabilidades</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-translate="report.feature2">Evidencia gráfica</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-translate="report.feature3">Clasificación por nivel de criticidad</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-translate="report.feature4">Plan de remediación</span></li>
+                        </ul>
+                    </div>
+                    <div class="report-image-container">
+                        <img src="img/report-invasor.png" alt="Informe técnico de vulnerabilidades Invasor" class="report-image floating">
+                        <div class="report-badge">
+                            <i class="fas fa-file-pdf"></i>
+                            <span data-translate="report.badge">Informe Profesional</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-translate="how.title">Cómo Funciona</h2>
+                <p data-translate="how.subtitle">Nuestro proceso garantiza pruebas de seguridad efectivas sin poner en riesgo tu información real</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-translate="how.step1.title">Evaluación Inicial</h3>
+                    <p data-translate="how.step1.description">Analizamos la infraestructura de tu empresa y definimos los objetivos de la prueba de seguridad en conjunto con tu equipo.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-translate="how.step2.title">Preparación del Entorno</h3>
+                    <p data-translate="how.step2.description">Configuramos un entorno controlado y firmamos los acuerdos de confidencialidad y legalidad necesarios.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-translate="how.step3.title">Ejecución Controlada</h3>
+                    <p data-translate="how.step3.description">Implementamos Invasor Ransomware en el entorno definido para simular un ataque real, supervisando cada paso.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-translate="how.step4.title">Análisis y Reporte</h3>
+                    <p data-translate="how.step4.description">Evaluamos los resultados, identificamos vulnerabilidades y entregamos un informe detallado con recomendaciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 data-translate="cta.title">¿Listo para Fortalecer tu Seguridad?</h2>
+            <p data-translate="cta.subtitle">Contacta con nuestro equipo para programar una demostración sin compromiso</p>
+            <a href="#contacto" class="cta-button glow">
+                <span data-translate="cta.button">Solicitar Información</span>
+                <i class="fas fa-arrow-right button-icon"></i>
+            </a>
+            <p class="cta-note">
+                <i class="fas fa-shield-alt"></i>
+                <span data-translate="cta.note">100% Confidencial • Sin Compromiso • Respuesta en 24h</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>INVASOR GROUP</h3>
+                    <p data-translate="footer.description">Servicios legales de pruebas de seguridad mediante simulacros de ransomware para empresas. Desarrollado en C# para máxima efectividad en entornos controlados.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://discord.gg/bvxhvDEk2h" aria-label="Discord" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="https://github.com/R3LI4NT/Invasor" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 data-translate="footer.links">Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio"><i class="fas fa-chevron-right"></i> <span data-translate="nav.home">Inicio</span></a></li>
+                        <li><a href="#caracteristicas"><i class="fas fa-chevron-right"></i> <span data-translate="nav.features">Características</span></a></li>
+                        <li><a href="#servicios"><i class="fas fa-chevron-right"></i> <span data-translate="nav.services">Servicios</span></a></li>
+                        <li><a href="#como-funciona"><i class="fas fa-chevron-right"></i> <span data-translate="nav.how">Cómo Funciona</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 data-translate="footer.contact">Contacto</h3>
+                    <ul>
+                        <li><a href="mailto:info@invasor-ransomware.com"><i class="fas fa-envelope"></i> invasor_group@keemail.me</a></li>
+                        <li><a href="tel:+15551234567"><i class="fas fa-phone"></i> Sin Definir</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 data-translate="footer.legal">Legal</h3>
+                    <ul>
+                        <li><a href="#" class="modal-trigger" data-modal="terms"><i class="fas fa-file-contract"></i> <span data-translate="footer.terms">Términos de Servicio</span></a></li>
+                        <li><a href="#" class="modal-trigger" data-modal="privacy"><i class="fas fa-user-shield"></i> <span data-translate="footer.privacy">Política de Privacidad</span></a></li>
+                        <li><a href="#" class="modal-trigger" data-modal="nda"><i class="fas fa-handshake"></i> <span data-translate="footer.nda">Acuerdo de Confidencialidad</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p data-translate="footer.copyright">&copy; 2026 Invasor Group. Todos los derechos reservados. Este servicio es 100% legal y solo se utiliza para pruebas de seguridad autorizadas bajo contrato.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <div class="modal-overlay" id="terms-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3><i class="fas fa-file-contract"></i> <span data-translate="footer.terms">Términos de Servicio</span></h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-content">
+                    <div class="modal-content-es">
+                        <h4>1. Aceptación de los Términos</h4>
+                        <p>Al utilizar nuestros servicios, usted acepta estar sujeto a estos términos de servicio. Si no está de acuerdo con alguna parte de los términos, no debe utilizar nuestros servicios.</p>
+                        
+                        <h4>2. Descripción del Servicio</h4>
+                        <p>Invasor Group proporciona servicios legales de pruebas de seguridad mediante simulacros controlados de ransomware para evaluar y fortalecer las defensas cibernéticas de empresas y organizaciones.</p>
+                        
+                        <h4>3. Uso Aceptable</h4>
+                        <p>Nuestros servicios solo deben utilizarse para pruebas de seguridad autorizadas y legales. Está estrictamente prohibido utilizar nuestro software para actividades ilegales o no autorizadas.</p>
+                        
+                        <h4>4. Confidencialidad</h4>
+                        <p>Toda la información proporcionada por el cliente se mantendrá en estricta confidencialidad. No compartiremos información con terceros sin consentimiento previo.</p>
+                        
+                        <h4>5. Limitación de Responsabilidad</h4>
+                        <p>Invasor Group no será responsable por daños indirectos, incidentales o consecuentes que surjan del uso de nuestros servicios.</p>
+                        
+                        <h4>6. Modificaciones</h4>
+                        <p>Nos reservamos el derecho de modificar estos términos en cualquier momento. Las modificaciones serán efectivas inmediatamente después de su publicación en nuestro sitio web.</p>
+                        
+                        <div class="modal-footer">
+                            <p><strong>Fecha de última actualización:</strong> 29 de diciembre de 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-content-en" style="display: none;">
+                        <h4>1. Acceptance of Terms</h4>
+                        <p>By using our services, you agree to be bound by these terms of service. If you disagree with any part of the terms, you should not use our services.</p>
+                        
+                        <h4>2. Service Description</h4>
+                        <p>Invasor Ransomware provides legal security testing services through controlled ransomware simulations to evaluate and strengthen the cyber defenses of businesses and organizations.</p>
+                        
+                        <h4>3. Acceptable Use</h4>
+                        <p>Our services should only be used for authorized and legal security testing. It is strictly prohibited to use our software for illegal or unauthorized activities.</p>
+                        
+                        <h4>4. Confidentiality</h4>
+                        <p>All information provided by the client will be kept strictly confidential. We will not share information with third parties without prior consent.</p>
+                        
+                        <h4>5. Limitation of Liability</h4>
+                        <p>Invasor Ransomware shall not be liable for any indirect, incidental, or consequential damages arising from the use of our services.</p>
+                        
+                        <h4>6. Modifications</h4>
+                        <p>We reserve the right to modify these terms at any time. Modifications will be effective immediately after their publication on our website.</p>
+                        
+                        <div class="modal-footer">
+                            <p><strong>Last updated:</strong> December 29, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal-overlay" id="privacy-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3><i class="fas fa-user-shield"></i> <span data-translate="footer.privacy">Política de Privacidad</span></h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-content">
+                    <div class="modal-content-es">
+                        <h4>1. Recopilación de Información</h4>
+                        <p>Recopilamos información que usted nos proporciona directamente, como nombre, correo electrónico, información de contacto y detalles de la organización para fines de prestación de servicios.</p>
+                        
+                        <h4>2. Uso de la Información</h4>
+                        <p>Utilizamos la información recopilada para:
+                            <ul>
+                                <li>Proporcionar y mantener nuestros servicios</li>
+                                <li>Comunicarnos con usted sobre nuestros servicios</li>
+                                <li>Mejorar la seguridad y funcionalidad de nuestros servicios</li>
+                                <li>Cumplir con obligaciones legales</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>3. Protección de Datos</h4>
+                        <p>Implementamos medidas de seguridad técnicas y organizativas apropiadas para proteger sus datos personales contra accesos no autorizados, alteración, divulgación o destrucción.</p>
+                        
+                        <h4>4. Compartir Información</h4>
+                        <p>No vendemos, comerciamos ni transferimos sus datos personales a terceros, excepto cuando sea necesario para proporcionar el servicio o cuando lo exija la ley.</p>
+                        
+                        <h4>5. Derechos del Usuario</h4>
+                        <p>Tiene derecho a acceder, corregir, eliminar o limitar el procesamiento de sus datos personales. Para ejercer estos derechos, contáctenos a través de los canales proporcionados.</p>
+                        
+                        <h4>6. Cookies y Tecnologías Similares</h4>
+                        <p>Utilizamos cookies para mejorar la experiencia del usuario y analizar el tráfico del sitio web. Puede controlar el uso de cookies a través de la configuración de su navegador.</p>
+                    </div>
+                    
+                    <div class="modal-content-en" style="display: none;">
+                        <h4>1. Information Collection</h4>
+                        <p>We collect information you provide directly to us, such as name, email, contact information, and organization details for service provision purposes.</p>
+                        
+                        <h4>2. Use of Information</h4>
+                        <p>We use the collected information to:
+                            <ul>
+                                <li>Provide and maintain our services</li>
+                                <li>Communicate with you about our services</li>
+                                <li>Improve security and functionality of our services</li>
+                                <li>Comply with legal obligations</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>3. Data Protection</h4>
+                        <p>We implement appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
+                        
+                        <h4>4. Sharing Information</h4>
+                        <p>We do not sell, trade, or transfer your personal data to third parties, except when necessary to provide the service or when required by law.</p>
+                        
+                        <h4>5. User Rights</h4>
+                        <p>You have the right to access, correct, delete, or limit the processing of your personal data. To exercise these rights, contact us through the provided channels.</p>
+                        
+                        <h4>6. Cookies and Similar Technologies</h4>
+                        <p>We use cookies to improve user experience and analyze website traffic. You can control cookie usage through your browser settings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal-overlay" id="nda-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3><i class="fas fa-handshake"></i> <span data-translate="footer.nda">Acuerdo de Confidencialidad</span></h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-content">
+                    <div class="modal-content-es">
+                        <h4>Acuerdo de Confidencialidad y No Divulgación (NDA)</h4>
+                        
+                        <p>Este Acuerdo de Confidencialidad ("Acuerdo") se celebra entre Invasor Group ("Proveedor") y el Cliente.</p>
+                        
+                        <h4>1. Información Confidencial</h4>
+                        <p>Se considera Información Confidencial cualquier información técnica, comercial, financiera o de cualquier otra naturaleza que sea revelada por una parte a la otra en relación con los servicios prestados.</p>
+                        
+                        <h4>2. Obligaciones de Confidencialidad</h4>
+                        <p>El Proveedor se compromete a:
+                            <ul>
+                                <li>Mantener la confidencialidad de toda la información proporcionada por el Cliente</li>
+                                <li>Utilizar la información solo para los fines autorizados del servicio</li>
+                                <li>Implementar medidas de seguridad adecuadas para proteger la información</li>
+                                <li>Notificar cualquier violación de seguridad de inmediato</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>3. Excepciones</h4>
+                        <p>Las obligaciones de confidencialidad no se aplican a información que:
+                            <ul>
+                                <li>Ya era del dominio público al momento de la divulgación</li>
+                                <li>Se hizo pública sin violación de este Acuerdo</li>
+                                <li>Fue desarrollada independientemente por el Proveedor</li>
+                                <li>Debe ser divulgada por mandato legal</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>4. Duración</h4>
+                        <p>Las obligaciones de confidencialidad establecidas en este Acuerdo permanecerán vigentes durante la vigencia del contrato de servicio y por un período de cinco (5) años después de su terminación.</p>
+                        
+                        <h4>5. Propiedad Intelectual</h4>
+                        <p>Toda la información confidencial proporcionada por el Cliente sigue siendo propiedad exclusiva del Cliente. El Proveedor no adquiere ningún derecho sobre dicha información.</p>
+                        
+                        <div class="modal-footer">
+                            <p><strong>Este acuerdo forma parte integral del contrato de servicios entre las partes.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-content-en" style="display: none;">
+                        <h4>Confidentiality and Non-Disclosure Agreement (NDA)</h4>
+                        
+                        <p>This Confidentiality Agreement ("Agreement") is entered into between Invasor Group ("Provider") and the Client.</p>
+                        
+                        <h4>1. Confidential Information</h4>
+                        <p>Confidential Information means any technical, commercial, financial, or other information disclosed by one party to the other in connection with the services provided.</p>
+                        
+                        <h4>2. Confidentiality Obligations</h4>
+                        <p>The Provider undertakes to:
+                            <ul>
+                                <li>Maintain the confidentiality of all information provided by the Client</li>
+                                <li>Use the information only for authorized service purposes</li>
+                                <li>Implement appropriate security measures to protect the information</li>
+                                <li>Notify any security breach immediately</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>3. Exceptions</h4>
+                        <p>Confidentiality obligations do not apply to information that:
+                            <ul>
+                                <li>Was already in the public domain at the time of disclosure</li>
+                                <li>Became public without violation of this Agreement</li>
+                                <li>Was independently developed by the Provider</li>
+                                <li>Must be disclosed by legal mandate</li>
+                            </ul>
+                        </p>
+                        
+                        <h4>4. Duration</h4>
+                        <p>The confidentiality obligations established in this Agreement shall remain in effect during the term of the service contract and for a period of five (5) years after its termination.</p>
+                        
+                        <h4>5. Intellectual Property</h4>
+                        <p>All confidential information provided by the Client remains the exclusive property of the Client. The Provider does not acquire any rights to such information.</p>
+                        
+                        <div class="modal-footer">
+                            <p><strong>This agreement is an integral part of the service contract between the parties.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

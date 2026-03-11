@@ -534,7 +534,7 @@ function initCarousel() {
     
     const carouselData = [
         {
-            image: "https://i.ibb.co/1f5nS4c9/invasor-10.png",
+            image: "https://raw.githubusercontent.com/R3LI4NT/Invasor/refs/heads/main/img/invasor-11.png",
             title: {
                 es: "Simulación de Ransomware",
                 en: "Ransomware Simulation"
@@ -545,7 +545,7 @@ function initCarousel() {
             }
         },
         {
-            image: "https://i.ibb.co/GvTyjWgF/invasor-13.png",
+            image: "https://raw.githubusercontent.com/R3LI4NT/Invasor/refs/heads/main/img/invasor-analisis.png",
             title: {
                 es: "Análisis de Vulnerabilidades",
                 en: "Vulnerability Analysis"
@@ -556,7 +556,7 @@ function initCarousel() {
             }
         },
         {
-            image: "https://i.ibb.co/9k6YWwjz/invasor-13.png",
+            image: "https://raw.githubusercontent.com/R3LI4NT/Invasor/refs/heads/main/img/invasor-13.png",
             title: {
                 es: "Pentesting Active Directory",
                 en: "Active Directory Pentesting"
@@ -864,4 +864,5 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(init3DCards, 100);
         });
     });
+
 });

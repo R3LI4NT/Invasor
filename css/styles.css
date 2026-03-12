@@ -382,7 +382,7 @@ header {
 }
 
 .service-btn {
-    width: 70%;
+    width: 45%;
     text-align: center;
     margin-top: 2rem;
     padding: 1rem 2rem;
@@ -2624,4 +2624,5 @@ header {
         padding: 0.4rem 1rem;
         font-size: 0.8rem;
     }
+
 }

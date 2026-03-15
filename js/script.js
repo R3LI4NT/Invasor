@@ -27,7 +27,7 @@ const translations = {
         "features.card2.title": "Desarrollado en C# .NET",
         "features.card2.description": "Construido con tecnología moderna en C# para garantizar compatibilidad, eficiencia y un comportamiento idéntico a ransomware reales de última generación.",
         "features.card3.title": "Seguro y Controlado",
-        "features.card3.description": "Cada simulación incluye mecanismos de recuperación y nunca compromete datos reales. Todo el proceso es supervisado por expertos en ciberseguridad certificados.",
+        "features.card3.description": "No compromete datos reales. Todo el proceso es supervisado por expertos en ciberseguridad.",
         
         // Servicios
         "services.title": "Nuestros Servicios",
@@ -57,6 +57,89 @@ const translations = {
         "how.step3.description": "Implementamos Invasor Ransomware en el entorno definido para simular un ataque real, supervisando cada paso.",
         "how.step4.title": "Análisis y Reporte",
         "how.step4.description": "Evaluamos los resultados, identificamos vulnerabilidades y entregamos un informe detallado con recomendaciones.",
+        
+        // Ransomware Workflow
+        "ransomware.title": "Funcionamiento del",
+        "ransomware.title.accent": "Ransomware",
+        "ransomware.subtitle": "Arquitectura modular de Invasor. Diseñado para emular escenarios de ataque realistas, permitiendo entrenar equipos de defensa y mejorar el hardening de los sistemas.",
+        "ransomware.offensive.title.prefix": "Invasor",
+        "ransomware.offensive.title": "Offensive",
+        "ransomware.offensive.badge": "Red Team",
+        "ransomware.offensive.description": "Ransomware completo con capacidades ofensivas reales, diseñado para evaluar y poner a prueba mecanismos de defensa y respuesta ante incidentes.",
+        "ransomware.simulator.title.prefix": "Invasor",
+        "ransomware.simulator.title": "Simulator",
+        "ransomware.simulator.description": "Versión inofensiva para simulacros controlados. Diseñada para entrenamiento y concientización sin comprometer infraestructura.",
+        "ransomware.simulator.coming": "Próximamente",
+        "ransomware.simulator.coming.description": "Versión Simulator en desarrollo",
+        "ransomware.simulator.preview1": "Sin encriptación real",
+        "ransomware.simulator.preview2": "Simulación de phishing",
+        "ransomware.simulator.preview3": "Reportes",
+        "ransomware.simulator.preview4": "Sin movimiento lateral",
+        "ransomware.simulator.preview5": "Entorno controlado",
+        
+        // Módulos
+        "module.loader": "LOADER",
+        "module.loader.desc": "Ejecución en memoria",
+        "module.loader.tag1": "DLL Reflection",
+        "module.loader.tag2": "Anti-Debug",
+        "module.loader.tag3": "Obfuscation",
+        "module.system": "SystemDiscovery",
+        "module.system.desc": "Reconocimiento del sistema",
+        "module.system.tag1": "Hardware",
+        "module.system.tag2": "Red",
+        "module.system.tag3": "AD",
+        "module.process": "ProcessKiller",
+        "module.process.desc": "Terminación de procesos",
+        "module.process.tag1": "Whitelist",
+        "module.process.tag2": "EDR",
+        "module.edr": "EDRKiller",
+        "module.edr.desc": "BYOVD - Kill EDR",
+        "module.edr.tag1": "BYOVD",
+        "module.edr.tag2": "180+ Procesos",
+        "module.remover": "Remover",
+        "module.remover.desc": "Eliminar recuperación",
+        "module.remover.tag1": "Shadow Copies",
+        "module.remover.tag2": "WinRE",
+        "module.remover.tag3": "BCD",
+        "module.encrypt": "EncryptModule",
+        "module.encrypt.desc": "Encriptación parcial para mayor velocidad con más de 400 extensiones a encriptar.",
+        "module.encrypt.stat1": "1MB parcial",
+        "module.encrypt.stat2": "USB + autorun",
+        "module.encrypt.tag1": "Exclusiones de archivos",
+        "module.encrypt.tag2": "AES + ECC",
+        "module.encrypt.tag3": "Auto-terminación VM",
+        "module.encrypt.anti": "Anti-VM",
+        "module.stealers": "Stealers",
+        "module.stealers.desc": "Exfiltración de datos",
+        "module.stealers.item1": "Telegram C2",
+        "module.stealers.item2": "RClone",
+        "module.backdoor": "Backdoor",
+        "module.backdoor.desc": "Persistencia C2",
+        "module.backdoor.tag1": "svchost.dll",
+        "module.backdoor.tag2": "XilentDoor",
+        "module.smb": "SMBSpreader",
+        "module.smb.desc": "Movimiento lateral",
+        "module.smb.tag1": "SMB",
+        "module.smb.tag2": "PAExec",
+        "module.smb.tag3": "Brute",
+        "module.c2": "C2 Exfiltration",
+        "module.c2.desc": "SMTP + Telegram + VPS Server",
+        "module.c2.tag1": "Clave AES",
+        "module.c2.tag2": "Clave ECC",
+        "module.c2.tag3": "No CEI",
+        "module.rescate": "Rescate",
+        "module.rescate.desc": "Nota interactiva",
+        "module.rescate.tag": ".html",
+        "module.datalake": "DataLeak",
+        "module.datalake.desc": "Web personalizable",
+        "module.datalake.tag": "Filtraciones",
+        "module.ebook": "E-Book",
+        "module.ebook.desc": "Documentación",
+        "module.ebook.tag": "Guía",
+        "module.decrypt": "Decryptor GUI",
+        "module.decrypt.desc": "Desencriptador por lote/individual",
+        "module.decrypt.tag1": "Clave Privada ECC",
+        "module.decrypt.tag2": "Clave AES",
         
         // CTA
         "cta.title": "¿Listo para Fortalecer tu Seguridad?",
@@ -108,7 +191,7 @@ const translations = {
         "features.card2.title": "Developed in C# .NET",
         "features.card2.description": "Built with modern C# technology to ensure compatibility, efficiency, and behavior identical to next-generation real ransomware.",
         "features.card3.title": "Safe & Controlled",
-        "features.card3.description": "Each simulation includes recovery mechanisms and never compromises real data. The entire process is supervised by certified cybersecurity experts.",
+        "features.card3.description": "No real data is compromised. The entire process is supervised by cybersecurity experts.",
         
         // Services
         "services.title": "Our Services",
@@ -139,6 +222,89 @@ const translations = {
         "how.step4.title": "Analysis & Reporting",
         "how.step4.description": "We evaluate results, identify vulnerabilities, and deliver a detailed report with recommendations.",
         
+        // Ransomware Workflow
+        "ransomware.title": "Ransomware",
+        "ransomware.title.accent": "Functionality",
+        "ransomware.subtitle": "Modular architecture of Invasor. Designed to emulate realistic attack scenarios, allowing defense teams to train and improve system hardening.",
+        "ransomware.offensive.title.prefix": "Invasor",
+        "ransomware.offensive.title": "Offensive",
+        "ransomware.offensive.badge": "Red Team",
+        "ransomware.offensive.description": "Complete ransomware with real offensive capabilities, designed to evaluate and test defense mechanisms and incident response.",
+        "ransomware.simulator.title.prefix": "Invasor",
+        "ransomware.simulator.title": "Simulator",
+        "ransomware.simulator.description": "Harmless version for controlled simulations. Designed for training and awareness without compromising infrastructure.",
+        "ransomware.simulator.coming": "Coming Soon",
+        "ransomware.simulator.coming.description": "Simulator version in development",
+        "ransomware.simulator.preview1": "No real encryption",
+        "ransomware.simulator.preview2": "Phishing simulation",
+        "ransomware.simulator.preview3": "Reports",
+        "ransomware.simulator.preview4": "No lateral movement",
+        "ransomware.simulator.preview5": "Controlled environment",
+        
+        // Modules
+        "module.loader": "LOADER",
+        "module.loader.desc": "In-memory execution",
+        "module.loader.tag1": "DLL Reflection",
+        "module.loader.tag2": "Anti-Debug",
+        "module.loader.tag3": "Obfuscation",
+        "module.system": "SystemDiscovery",
+        "module.system.desc": "System reconnaissance",
+        "module.system.tag1": "Hardware",
+        "module.system.tag2": "Network",
+        "module.system.tag3": "AD",
+        "module.process": "ProcessKiller",
+        "module.process.desc": "Process termination",
+        "module.process.tag1": "Whitelist",
+        "module.process.tag2": "EDR",
+        "module.edr": "EDRKiller",
+        "module.edr.desc": "BYOVD - Kill EDR",
+        "module.edr.tag1": "BYOVD",
+        "module.edr.tag2": "180+ Processes",
+        "module.remover": "Remover",
+        "module.remover.desc": "Remove recovery",
+        "module.remover.tag1": "Shadow Copies",
+        "module.remover.tag2": "WinRE",
+        "module.remover.tag3": "BCD",
+        "module.encrypt": "EncryptModule",
+        "module.encrypt.desc": "Partial encryption for faster speed with over 400 extensions to encrypt.",
+        "module.encrypt.stat1": "1MB partial",
+        "module.encrypt.stat2": "USB + autorun",
+        "module.encrypt.tag1": "File exclusions",
+        "module.encrypt.tag2": "AES + ECC",
+        "module.encrypt.tag3": "VM auto-termination",
+        "module.encrypt.anti": "Anti-VM",
+        "module.stealers": "Stealers",
+        "module.stealers.desc": "Data exfiltration",
+        "module.stealers.item1": "Telegram C2",
+        "module.stealers.item2": "RClone",
+        "module.backdoor": "Backdoor",
+        "module.backdoor.desc": "C2 Persistence",
+        "module.backdoor.tag1": "svchost.dll",
+        "module.backdoor.tag2": "XilentDoor",
+        "module.smb": "SMBSpreader",
+        "module.smb.desc": "Lateral movement",
+        "module.smb.tag1": "SMB",
+        "module.smb.tag2": "PAExec",
+        "module.smb.tag3": "Brute",
+        "module.c2": "C2 Exfiltration",
+        "module.c2.desc": "SMTP + Telegram + VPS Server",
+        "module.c2.tag1": "AES Key",
+        "module.c2.tag2": "ECC Key",
+        "module.c2.tag3": "No CIS",
+        "module.rescate": "Ransom Note",
+        "module.rescate.desc": "Interactive note",
+        "module.rescate.tag": ".html",
+        "module.datalake": "DataLeak",
+        "module.datalake.desc": "Customizable website",
+        "module.datalake.tag": "Leaks",
+        "module.ebook": "E-Book",
+        "module.ebook.desc": "Documentation",
+        "module.ebook.tag": "Guide",
+        "module.decrypt": "Decryptor GUI",
+        "module.decrypt.desc": "Batch/individual decryptor",
+        "module.decrypt.tag1": "ECC Private Key",
+        "module.decrypt.tag2": "AES Key",
+        
         // CTA
         "cta.title": "Ready to Strengthen Your Security?",
         "cta.subtitle": "Contact our team to schedule a no-obligation demonstration",
@@ -168,7 +334,6 @@ const translations = {
 
 let currentLang = 'es';
 
-
 function initTypewriter() {
     const typewriterTexts = {
         es: "Prueba la Seguridad de tu Empresa con Invasor Ransomware",
@@ -187,7 +352,7 @@ function initTypewriter() {
     
     const typingSpeed = 50;
     const deletingSpeed = 30;
-    const pauseTime = 2000; 
+    const pauseTime = 2000;
     
     function typeEffect() {
         if (isPaused) return;
@@ -310,7 +475,7 @@ function updateLanguageButton(lang) {
 
 function initLanguageSystem() {
     const savedLang = localStorage.getItem('preferredLanguage');
-    const browserLang = navigator.language.split('-')[0]; 
+    const browserLang = navigator.language.split('-')[0];
     
     let initialLang = 'es';
     if (savedLang && (savedLang === 'es' || savedLang === 'en')) {
@@ -503,7 +668,6 @@ function initSmoothScroll() {
     });
 }
 
-
 function initScrollAnimations() {
     const observerOptions = {
         threshold: 0.1,
@@ -522,7 +686,6 @@ function initScrollAnimations() {
         observer.observe(el);
     });
 }
-
 
 function initCarousel() {
     const carouselTrack = document.getElementById('carouselTrack');
@@ -608,7 +771,7 @@ function initCarousel() {
     }
     
     function updateCarouselPosition() {
-        const slideWidth = 100; 
+        const slideWidth = 100;
         carouselTrack.style.transform = `translateX(-${currentSlide * slideWidth}%)`;
         
         document.querySelectorAll('.carousel-slide').forEach((slide, index) => {
@@ -664,7 +827,7 @@ function initCarousel() {
     }
     
     function startAutoPlay() {
-        autoPlayInterval = setInterval(nextSlide, 5000); 
+        autoPlayInterval = setInterval(nextSlide, 5000);
     }
     
     function resetAutoPlay() {
@@ -731,7 +894,7 @@ function initCarousel() {
         
         if (Math.abs(diff) > swipeThreshold) {
             if (diff > 0) {
-                nextSlide(); 
+                nextSlide();
             } else {
                 prevSlide();
             }
@@ -745,7 +908,6 @@ function initCarousel() {
         prevSlide
     };
 }
-
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Inicializando sitio...');
@@ -830,13 +992,11 @@ function init3DCards() {
 document.addEventListener('DOMContentLoaded', () => {
     const style = document.createElement('style');
     style.textContent = `
-        /* Eliminar cualquier estilo previo con rosa/rojo */
         .service-card.featured .badge {
-            background: linear-gradient(135deg, #0066ff, #0099ff); /* Azul en lugar de rosa */
+            background: linear-gradient(135deg, #0066ff, #0099ff);
             color: white;
         }
         
-        /* Mejorar la apariencia de las tarjetas para el efecto 3D */
         .service-card .service-header {
             position: relative;
             z-index: 2;
@@ -847,7 +1007,6 @@ document.addEventListener('DOMContentLoaded', () => {
             z-index: 2;
         }
         
-        /* Ajustar el efecto de la tarjeta destacada */
         .service-card.featured {
             transform-style: preserve-3d;
             border: 2px solid transparent;
@@ -864,5 +1023,4 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(init3DCards, 100);
         });
     });
-
 });

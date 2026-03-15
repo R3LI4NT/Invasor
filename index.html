@@ -33,7 +33,6 @@
         </div>
     </div>
 
-    <!-- Header y Navegación -->
     <header>
         <div class="container nav-container">
             <div class="logo">
@@ -61,7 +60,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero" id="inicio">
         <div class="container hero-content">
             <h1>
@@ -74,7 +72,6 @@
                 <i class="fas fa-arrow-right button-icon"></i>
             </a>
             
-            <!-- Stats Section -->
             <div class="hero-stats">
                 <div class="stat">
                     <h3>100%</h3>
@@ -92,7 +89,6 @@
         </div>
     </section>
 
-    <!-- Carrusel de Imágenes -->
     <section class="image-carousel-section">
         <div class="container">
             <div class="carousel-container">
@@ -101,7 +97,6 @@
                 <div class="disintegration-effect left"></div>
                 <div class="disintegration-effect right"></div>
                 
-                <!-- Botones de navegación -->
                 <button class="carousel-nav prev" aria-label="Slide anterior" id="carouselPrev">
                     <i class="fas fa-chevron-left"></i>
                 </button>
@@ -109,14 +104,12 @@
                     <i class="fas fa-chevron-right"></i>
                 </button>
                 
-                <!-- Indicadores del carrusel -->
                 <div class="carousel-indicators" id="carouselIndicators">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Características -->
     <section id="caracteristicas">
         <div class="container">
             <div class="section-title">
@@ -152,7 +145,6 @@
         </div>
     </section>
 
-    <!-- Servicios -->
     <section id="servicios">
         <div class="container">
             <div class="section-title">
@@ -225,7 +217,6 @@
         </div>
     </section>
 
-    <!-- Cómo Funciona -->
     <section class="how-it-works" id="como-funciona">
         <div class="container">
             <div class="section-title">
@@ -261,7 +252,279 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <section class="ransomware-workflow" id="funcionamiento">
+        <div class="container">
+            <div class="section-title">
+                <h2><span data-translate="ransomware.title">Funcionamiento del</span> <span class="accent-text" data-translate="ransomware.title.accent">Ransomware</span></h2>
+                <p data-translate="ransomware.subtitle">Arquitectura modular del ecosistema Invasor. Diseñado para emular escenarios de ataque realistas, permitiendo entrenar equipos de defensa y mejorar el hardening de los sistemas.</p>
+            </div>
+            
+            <div class="versions-container">
+                <div class="version-card offensive">
+                    <div class="version-header">
+                        <div class="version-icon">
+                            <i class="fas fa-skull"></i>
+                        </div>
+                        <div class="version-title-wrapper">
+                            <h3 class="version-title"><span data-translate="ransomware.offensive.title.prefix">Invasor</span> <span data-translate="ransomware.offensive.title">Offensive</span></h3>
+                            <span class="version-badge" data-translate="ransomware.offensive.badge">Red Team</span>
+                        </div>
+                        <p class="version-description" data-translate="ransomware.offensive.description">Ransomware completo con capacidades ofensivas reales, diseñado para evaluar y poner a prueba mecanismos de defensa y respuesta ante incidentes.</p>
+                    </div>
+                    
+                    <div class="workflow-diagram">
+                        <!-- LOADER -->
+                        <div class="workflow-node loader-node">
+                            <div class="node-icon">
+                                <i class="fas fa-download"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 data-translate="module.loader">LOADER</h4>
+                                <p data-translate="module.loader.desc">Ejecución en memoria</p>
+                                <div class="node-tags">
+                                    <span class="tag" data-translate="module.loader.tag1">DLL Reflection</span>
+                                    <span class="tag" data-translate="module.loader.tag2">Anti-Debug</span>
+                                    <span class="tag" data-translate="module.loader.tag3">Obfuscation</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical"></div>
+                        
+                        <div class="nodes-row">
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-microchip"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.system">SystemDiscovery</h4>
+                                    <p data-translate="module.system.desc">Reconocimiento del sistema</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.system.tag1">Hardware</span>
+                                        <span class="tag" data-translate="module.system.tag2">Red</span>
+                                        <span class="tag" data-translate="module.system.tag3">AD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-trash-alt"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.process">ProcessKiller</h4>
+                                    <p data-translate="module.process.desc">Terminación de procesos</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.process.tag1">Whitelist</span>
+                                        <span class="tag" data-translate="module.process.tag2">EDR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-down"></div>
+                        
+                        <div class="nodes-row">
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-shield-virus"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.edr">EDRKiller</h4>
+                                    <p data-translate="module.edr.desc">BYOVD - Kill EDR</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.edr.tag1">BYOVD</span>
+                                        <span class="tag" data-translate="module.edr.tag2">180+ Procesos</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-undo-alt"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.remover">Remover</h4>
+                                    <p data-translate="module.remover.desc">Eliminar recuperación</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.remover.tag1">Shadow Copies</span>
+                                        <span class="tag" data-translate="module.remover.tag2">WinRE</span>
+                                        <span class="tag" data-translate="module.remover.tag3">BCD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-down"></div>
+                        
+                        <div class="workflow-node encrypt-node">
+                            <div class="node-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4>EncryptModule <span class="inline-badge anti-vm-badge"><i class="fas fa-desktop"></i> <span data-translate="module.encrypt.anti">Anti-VM</span></span></h4>
+                                <p data-translate="module.encrypt.desc">Encriptación parcial para mayor velocidad con más de 400 extensiones a encriptar.</p>
+                                <div class="encrypt-stats">
+                                    <span><i class="fas fa-file"></i> <span data-translate="module.encrypt.stat1">1MB parcial</span></span>
+                                    <span><i class="fa-brands fa-usb"></i> <span data-translate="module.encrypt.stat2">USB + autorun</span></span>
+                                </div>
+                                <div class="node-tags">
+                                    <span class="tag" data-translate="module.encrypt.tag1">Exclusiones de archivos</span>
+                                    <span class="tag" data-translate="module.encrypt.tag2">AES + ECC</span>
+                                    <span class="tag" data-translate="module.encrypt.tag3">Auto-terminación VM</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical"></div>
+                        
+                        <div class="nodes-row">
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.stealers">Stealers</h4>
+                                    <p data-translate="module.stealers.desc">Exfiltración de datos</p>
+                                    <div class="stealer-dual">
+                                        <span class="stealer-item"><i class="fab fa-telegram"></i> <span data-translate="module.stealers.item1">Telegram C2</span></span>
+                                        <span class="stealer-item"><i class="fas fa-cloud"></i> <span data-translate="module.stealers.item2">RClone</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-door-open"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.backdoor">Backdoor</h4>
+                                    <p data-translate="module.backdoor.desc">Persistencia C2</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.backdoor.tag1">svchost.dll</span>
+                                        <span class="tag" data-translate="module.backdoor.tag2">XilentDoor</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-down"></div>
+                        
+                        <div class="nodes-row">
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.smb">SMBSpreader</h4>
+                                    <p data-translate="module.smb.desc">Movimiento lateral</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.smb.tag1">SMB</span>
+                                        <span class="tag" data-translate="module.smb.tag2">PAExec</span>
+                                        <span class="tag" data-translate="module.smb.tag3">Brute</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.c2">C2 Exfiltration</h4>
+                                    <p data-translate="module.c2.desc">SMTP + Telegram + VPS Server</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.c2.tag1">Clave AES</span>
+                                        <span class="tag" data-translate="module.c2.tag2">Clave ECC</span>
+                                        <span class="tag" data-translate="module.c2.tag3">No CEI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-down"></div>
+                        
+                        <div class="nodes-row three-nodes">
+                            <div class="workflow-node small-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-file-invoice-dollar"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.rescate">Rescate</h4>
+                                    <p data-translate="module.rescate.desc">Nota interactiva</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.rescate.tag">.html</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node small-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.datalake">DataLeak</h4>
+                                    <p data-translate="module.datalake.desc">Web personalizable</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.datalake.tag">Filtraciones</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workflow-node small-node">
+                                <div class="node-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="node-content">
+                                    <h4 data-translate="module.ebook">E-Book</h4>
+                                    <p data-translate="module.ebook.desc">Documentación</p>
+                                    <div class="node-tags">
+                                        <span class="tag" data-translate="module.ebook.tag">Guía</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-down"></div>
+                        
+                        <div class="workflow-node decrypt-node">
+                            <div class="node-icon">
+                                <i class="fas fa-unlock-alt"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 data-translate="module.decrypt">Decryptor GUI</h4>
+                                <p data-translate="module.decrypt.desc">Desencriptador por lote/individual</p>
+                                <div class="node-tags">
+                                    <span class="tag" data-translate="module.decrypt.tag1">Clave Privada ECC</span>
+                                    <span class="tag" data-translate="module.decrypt.tag2">Clave AES</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="version-card simulator">
+                    <div class="version-header">
+                        <div class="version-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <div class="version-title-wrapper">
+                            <h3 class="version-title"><span data-translate="ransomware.simulator.title.prefix">Invasor</span> <span data-translate="ransomware.simulator.title">Simulator</span></h3>
+                        </div>
+                        <p class="version-description" data-translate="ransomware.simulator.description">Versión inofensiva para simulacros controlados. Diseñada para entrenamiento y concientización sin comprometer infraestructura.</p>
+                    </div>
+                    
+                    <div class="simulator-coming-soon">
+                        <i class="fas fa-clock"></i>
+                        <h4 data-translate="ransomware.simulator.coming">Próximamente</h4>
+                        <p data-translate="ransomware.simulator.coming.description">Versión Simulator en desarrollo</p>
+                        <div class="simulator-features-preview">
+                            <span class="preview-tag" data-translate="ransomware.simulator.preview1">Sin encriptación real</span>
+                            <span class="preview-tag" data-translate="ransomware.simulator.preview2">Simulación de phishing</span>
+                            <span class="preview-tag" data-translate="ransomware.simulator.preview3">Reportes entrenamiento</span>
+                            <span class="preview-tag" data-translate="ransomware.simulator.preview4">Sin movimiento lateral</span>
+                            <span class="preview-tag" data-translate="ransomware.simulator.preview5">Entorno controlado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="cta-section">
         <div class="container">
             <h2 data-translate="cta.title">¿Listo para Fortalecer tu Seguridad?</h2>
@@ -277,7 +540,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contacto">
         <div class="container">
             <div class="footer-content">
@@ -324,7 +586,6 @@
         </div>
     </footer>
 
-    <!-- Modales -->
     <div class="modal-overlay" id="terms-modal">
         <div class="modal-container">
             <div class="modal-header">
@@ -543,10 +804,4 @@
 
     <script src="js/script.js"></script>
 </body>
-
 </html>
-
-
-
-
-

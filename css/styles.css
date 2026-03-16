@@ -2683,8 +2683,8 @@ header {
 }
 
 .version-card.offensive {
-    border-color: rgba(255, 68, 68, 0.3);
-    box-shadow: 0 20px 40px rgba(255, 68, 68, 0.15);
+    border-color: rgba(36, 12, 255, 0.3);
+    box-shadow: 0 20px 40px rgba(68, 102, 255, 0.15);
 }
 
 .version-card.offensive::before {
@@ -2694,13 +2694,13 @@ header {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(90deg, #ff4444, #ff8844, #ff4444);
+    background: linear-gradient(90deg, #0e1eff, #0e1eff, #0e1eff);
     background-size: 200% 100%;
     animation: gradientShift 3s linear infinite;
 }
 
 .version-card.simulator {
-    border-color: rgba(0, 102, 255, 0.3);
+    border-color: rgba(0, 255, 34, 0.3);
 }
 
 .version-card.simulator::before {
@@ -2710,7 +2710,7 @@ header {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(90deg, var(--accent-blue), var(--light-blue), var(--accent-blue));
+    background: linear-gradient(90deg, #0eff1a, #0eff1a, #0eff1a);
     background-size: 200% 100%;
     animation: gradientShift 3s linear infinite;
 }
@@ -2738,15 +2738,15 @@ header {
 }
 
 .version-card.offensive .version-icon {
-    background: rgba(255, 68, 68, 0.15);
-    color: #ff6666;
-    box-shadow: 0 0 30px rgba(255, 68, 68, 0.3);
+    background: rgba(68, 243, 255, 0.15);
+    color: #00eeff;
+    box-shadow: 0 0 30px rgba(68, 255, 215, 0.3);
 }
 
 .version-card.simulator .version-icon {
-    background: rgba(0, 102, 255, 0.15);
-    color: var(--accent-blue);
-    box-shadow: 0 0 30px rgba(0, 102, 255, 0.3);
+    background: rgba(0, 255, 21, 0.15);
+    color: #00ff4c;
+    box-shadow: 0 0 30px rgba(0, 255, 64, 0.3);
 }
 
 .version-title-wrapper {
@@ -2764,11 +2764,11 @@ header {
 }
 
 .version-card.offensive .version-title span {
-    color: #ff6666;
+    color: #0077ff;
 }
 
 .version-card.simulator .version-title span {
-    color: var(--accent-blue);
+    color: #00ff4c;
 }
 
 .version-badge {
@@ -2787,7 +2787,7 @@ header {
 
 .version-card.simulator .version-badge {
     background: rgba(0, 102, 255, 0.2);
-    border: 1px solid rgba(0, 102, 255, 0.3);
+    border: 1px solid rgba(0, 255, 42, 0.3);
     color: var(--light-blue);
 }
 

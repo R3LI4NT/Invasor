@@ -273,7 +273,6 @@
                     </div>
                     
                     <div class="workflow-diagram">
-                        <!-- LOADER -->
                         <div class="workflow-node loader-node">
                             <div class="node-icon">
                                 <i class="fas fa-download"></i>
@@ -505,19 +504,103 @@
                         <div class="version-title-wrapper">
                             <h3 class="version-title"><span data-translate="ransomware.simulator.title.prefix">Invasor</span> <span data-translate="ransomware.simulator.title">Simulator</span></h3>
                         </div>
-                        <p class="version-description" data-translate="ransomware.simulator.description">Versión inofensiva para simulacros controlados. Diseñada para entrenamiento y concientización sin comprometer infraestructura.</p>
+                        <p class="version-description" data-translate="ransomware.simulator.description">Versión inofensiva para simulacros controlados. Diseñada para concientización del personal sin comprometer infraestructura.</p>
                     </div>
                     
-                    <div class="simulator-coming-soon">
-                        <i class="fas fa-clock"></i>
-                        <h4 data-translate="ransomware.simulator.coming">Próximamente</h4>
-                        <p data-translate="ransomware.simulator.coming.description">Versión Simulator en desarrollo</p>
-                        <div class="simulator-features-preview">
-                            <span class="preview-tag" data-translate="ransomware.simulator.preview1">Sin encriptación real</span>
-                            <span class="preview-tag" data-translate="ransomware.simulator.preview2">Simulación de phishing</span>
-                            <span class="preview-tag" data-translate="ransomware.simulator.preview3">Reportes entrenamiento</span>
-                            <span class="preview-tag" data-translate="ransomware.simulator.preview4">Sin movimiento lateral</span>
-                            <span class="preview-tag" data-translate="ransomware.simulator.preview5">Entorno controlado</span>
+                    <div class="workflow-diagram">
+                        <div class="workflow-node loader-node" style="border-color: #00AB06;">
+                            <div class="node-icon" style="background: rgba(0, 171, 6, 0.15); color: #00AB06;">
+                                <i class="fas fa-download"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 style="color: #00AB06;" data-translate="simulator.loader.title">LOADER</h4>
+                                <p data-translate="simulator.loader.desc">Carga en memoria</p>
+                                <div class="node-tags">
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.loader.tag1">DLL Reflection</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.loader.tag2">Anti-Debug</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.loader.tag3">Obfuscation</span>
+                                </div>
+                                <div class="simulator-module-desc" style="margin-top: 10px; font-size: 0.85rem; color: rgba(255,255,255,0.7);" data-translate="simulator.loader.modules">
+                                    <i class="fas fa-cube"></i> EncryptModule.dll, WallpaperChanger.dll, Reporter.dll, Windows.dll
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical" style="background: #00AB06;"></div>
+                        
+                        <div class="workflow-node" style="border-color: #00AB06;">
+                            <div class="node-icon" style="background: rgba(0, 171, 6, 0.15); color: #00AB06;">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 style="color: #00AB06;" data-translate="simulator.encrypt.title">EncryptModule</h4>
+                                <p data-translate="simulator.encrypt.desc">Simulación de encriptación</p>
+                                <div class="encrypt-stats">
+                                    <span><i class="fas fa-file"></i> <span data-translate="simulator.encrypt.stat1">Archivos falsos</span></span>
+                                </div>
+                                <div class="node-tags">
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.encrypt.tag1">1-5KB aleatorio</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.encrypt.tag2">Extensión .invasor</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical" style="background: #00AB06;"></div>
+                        
+                        <div class="workflow-node" style="border-color: #00AB06;">
+                            <div class="node-icon" style="background: rgba(0, 171, 6, 0.15); color: #00AB06;">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 style="color: #00AB06;" data-translate="simulator.wallpaper.title">WallpaperChanger</h4>
+                                <p data-translate="simulator.wallpaper.desc">Cambio de fondo de escritorio</p>
+                                <div class="node-tags">
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.wallpaper.tag1">wallpaper.png</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.wallpaper.tag2">%TEMP%</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.wallpaper.tag3">API Windows</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical" style="background: #00AB06;"></div>
+                        
+                        <div class="workflow-node" style="border-color: #00AB06;">
+                            <div class="node-icon" style="background: rgba(0, 171, 6, 0.15); color: #00AB06;">
+                                <i class="fab fa-windows"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 style="color: #00AB06;" data-translate="simulator.windows.title">Windows GUI</h4>
+                                <p data-translate="simulator.windows.desc">Ventana de rescate simulada</p>
+                                <div class="encrypt-stats">
+                                    <span><i class="fas fa-clock"></i> <span data-translate="simulator.windows.stat1">Temporizador 24h</span></span>
+                                    <span><i class="fas fa-key"></i> <span data-translate="simulator.windows.stat2">3 intentos</span></span>
+                                </div>
+                                <div class="node-tags">
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.windows.tag1">ID único</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.windows.tag2">Bitcoin</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="connector-vertical" style="background: #00AB06;"></div>
+                        
+                        <div class="workflow-node" style="border-color: #00AB06;">
+                            <div class="node-icon" style="background: rgba(0, 171, 6, 0.15); color: #00AB06;">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <div class="node-content">
+                                <h4 style="color: #00AB06;" data-translate="simulator.reporter.title">Reporter C2</h4>
+                                <p data-translate="simulator.reporter.desc">Simulación de C2</p>
+                                <div class="stealer-dual">
+                                    <span class="stealer-item" style="color: rgba(255,255,255,0.8);"><i class="fab fa-telegram" style="color: #00AB06;"></i> <span data-translate="simulator.reporter.telegram">Telegram</span></span>
+                                </div>
+                                <div class="node-tags">
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.reporter.tag1">Usuario</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.reporter.tag2">IP Local</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.reporter.tag3">IP Pública</span>
+                                    <span class="tag" style="border-color: rgba(0, 171, 6, 0.3); color: #00AB06;" data-translate="simulator.reporter.tag4">Domain</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

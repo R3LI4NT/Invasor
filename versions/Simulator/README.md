@@ -32,3 +32,7 @@
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/WINDOWS:-00AB06.svg"> Este módulo muestra una ventana emergente que simula la interfaz de rescate de un ransomware real. Incluye un temporizador de 24 horas con cuenta regresiva en tiempo real, un ID único de desencriptación generado aleatoriamente, instrucciones de pago en Bitcoin, y un campo para ingresar una supuesta clave de desencriptación. El botón "DESENCRIPTAR" simula la verificación de clave, permitiendo hasta 3 intentos fallidos antes de bloquearse temporalmente por 10 segundos.
+
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/REPORTER C2:-00AB06.svg"> Este módulo actúa como el "bot de comando y control" del ransomware, enviando información de la víctima a un canal de Telegram para simular la exfiltración de datos. Al ejecutarse, recopila automáticamente: nombre de usuario, nombre del equipo, dominio, IP local, IP pública (consultando servicios como api.ipify.org), y fecha/hora del sistema. 

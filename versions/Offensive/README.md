@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="350" alt="Invasor-2" src="https://github.com/user-attachments/assets/638ed9d5-7849-485c-b7d8-2d17b3accaf2" />
+  <img width="500" height="700" alt="Invasor-2" src="https://github.com/user-attachments/assets/638ed9d5-7849-485c-b7d8-2d17b3accaf2" />
 </p>
 
 <p align="center">

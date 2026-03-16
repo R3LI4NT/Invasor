@@ -303,18 +303,4 @@ https://github.com/user-attachments/assets/d275df1b-c9ff-4815-8bb0-96a72c17016c
 
 <h1 align="center"></h1>
 
-¿Quieres evaluar las defensas de la infraestructura de tu empresa frente a ataques de ransomware con Invasor? ¿O prefieres poner a prueba la capacidad de respuesta de los empleados mediante simulacros de phishing con escenarios de Ransomware, sin comprometer la infraestructura?
-
-Contacto:
-
-<img src="https://img.shields.io/badge/r3li4nt.contact@keemail.me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-
-<img src="https://img.shields.io/badge/invasor.support@onionmail.org-0239A4?style=for-the-badge&logo=gmail&logoColor=white" />
-
 </br>
-</br>
-
-> [!NOTE]
-> Invasor esta programado en C#, sin utilizar código de otras muestras conocidas, kits de construcción o fragmentos reutilizados. Por lo tanto, su código fuente es único y privado. Cuenta con una versión inofensiva diseñada para Simulacros de Ransomware, full personalizable sin comprometer la infraestructura.
-
-> Fecha de creación: Principio de Noviembre 2025

@@ -48,11 +48,7 @@ Contacto:
 
 <img src="https://img.shields.io/badge/invasor.support@onionmail.org-0239A4?style=for-the-badge&logo=gmail&logoColor=white" />
 
-</br>
-
 <h1 align="center"></h1>
-
-</br>
 
 > [!NOTE]
 > Invasor esta programado en C#, sin utilizar código de otras muestras conocidas, kits de construcción o fragmentos reutilizados. Por lo tanto, su código fuente es único y privado. Cuenta con una versión inofensiva diseñada para Simulacros de Ransomware, full personalizable sin comprometer la infraestructura.

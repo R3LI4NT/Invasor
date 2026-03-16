@@ -26,8 +26,17 @@
 
 <h1 align="center"></h1>
 
-### ACERCA DE Invasor Ransomware:
+### ACERCA DE `Invasor Ransomware`:
 
+Invasor es un ransomware desarrollado en C# puro para sistemas Microsoft Windows, cuenta con dos versiones especializadas:
+
+**Offensive**: Implementa técnicas avanzadas utilizadas en amenazas reales, incluyendo mecanismos de cifrado, evasión de defensas, movimiento lateral y recolección de información. Está orientado a pruebas de resiliencia y evaluación de las capacidades de detección y respuesta dentro de infraestructuras corporativas.
+
+**Simulator**: Versión enfocada en campañas de concientización y simulación de phishing, diseñada para evaluar la capacidad de reacción de los empleados ante incidentes de ransomware, sin comprometer datos ni sistemas reales de la organización.
+
+<p align="center">
+  <img width="1536" height="1024" alt="invasor-ransomware-1" src="https://github.com/user-attachments/assets/21568977-d32b-4d0e-9aa5-a602170e5c67" />
+</p>
 
 <h1 align="center"></h1>
 

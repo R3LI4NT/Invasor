@@ -38,3 +38,5 @@
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/REPORTER C2:-00AB06.svg"> Este módulo actúa como el "bot de comando y control" del ransomware, enviando información de la víctima a un canal de Telegram para simular la exfiltración de datos. Al ejecutarse, recopila automáticamente: nombre de usuario, nombre del equipo, dominio, IP local, IP pública (consultando servicios como api.ipify.org), y fecha/hora del sistema. 
+
+<img width="604" height="363" alt="2" src="https://github.com/user-attachments/assets/c8046e9e-22de-4a98-8ba6-6fed72436453" />

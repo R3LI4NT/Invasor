@@ -62,22 +62,55 @@ const translations = {
         "ransomware.title": "Funcionamiento del",
         "ransomware.title.accent": "Ransomware",
         "ransomware.subtitle": "Arquitectura modular de Invasor. Diseñado para emular escenarios de ataque realistas, permitiendo entrenar equipos de defensa y mejorar el hardening de los sistemas.",
+        
+        // Offensive
         "ransomware.offensive.title.prefix": "Invasor",
         "ransomware.offensive.title": "Offensive",
         "ransomware.offensive.badge": "Red Team",
         "ransomware.offensive.description": "Ransomware completo con capacidades ofensivas reales, diseñado para evaluar y poner a prueba mecanismos de defensa y respuesta ante incidentes.",
+        
+        // Simulator
         "ransomware.simulator.title.prefix": "Invasor",
         "ransomware.simulator.title": "Simulator",
         "ransomware.simulator.description": "Versión inofensiva para simulacros controlados. Diseñada para entrenamiento y concientización sin comprometer infraestructura.",
-        "ransomware.simulator.coming": "Próximamente",
-        "ransomware.simulator.coming.description": "Versión Simulator en desarrollo",
-        "ransomware.simulator.preview1": "Sin encriptación real",
-        "ransomware.simulator.preview2": "Simulación de phishing",
-        "ransomware.simulator.preview3": "Reportes",
-        "ransomware.simulator.preview4": "Sin movimiento lateral",
-        "ransomware.simulator.preview5": "Entorno controlado",
+        "ransomware.simulator.badge": "Blue Team",
         
-        // Módulos
+        // Módulos Simulator
+        "simulator.loader.title": "LOADER",
+        "simulator.loader.desc": "Carga en memoria",
+        "simulator.loader.tag1": "DLL Reflection",
+        "simulator.loader.tag2": "Anti-Debug",
+        "simulator.loader.tag3": "Obfuscation",
+        "simulator.loader.modules": "EncryptModule.dll, WallpaperChanger.dll, Reporter.dll, Windows.dll",
+        
+        "simulator.encrypt.title": "EncryptModule",
+        "simulator.encrypt.desc": "Simulación de encriptación",
+        "simulator.encrypt.stat1": "Archivos falsos",
+        "simulator.encrypt.tag1": "1-5KB aleatorio",
+        "simulator.encrypt.tag2": "Extensión .invasor",
+        
+        "simulator.wallpaper.title": "WallpaperChanger",
+        "simulator.wallpaper.desc": "Cambio de fondo de escritorio",
+        "simulator.wallpaper.tag1": "wallpaper.png",
+        "simulator.wallpaper.tag2": "%TEMP%",
+        "simulator.wallpaper.tag3": "API Windows",
+        
+        "simulator.windows.title": "Windows GUI",
+        "simulator.windows.desc": "Ventana de rescate simulada",
+        "simulator.windows.stat1": "Temporizador 24h",
+        "simulator.windows.stat2": "3 intentos",
+        "simulator.windows.tag1": "ID único",
+        "simulator.windows.tag2": "Bitcoin",
+        
+        "simulator.reporter.title": "Reporter C2",
+        "simulator.reporter.desc": "Simulación de C2",
+        "simulator.reporter.telegram": "Telegram",
+        "simulator.reporter.tag1": "Usuario",
+        "simulator.reporter.tag2": "IP Local",
+        "simulator.reporter.tag3": "IP Pública",
+        "simulator.reporter.tag4": "Domain",
+        
+        // Módulos Offensive
         "module.loader": "LOADER",
         "module.loader.desc": "Ejecución en memoria",
         "module.loader.tag1": "DLL Reflection",
@@ -226,22 +259,55 @@ const translations = {
         "ransomware.title": "Ransomware",
         "ransomware.title.accent": "Functionality",
         "ransomware.subtitle": "Modular architecture of Invasor. Designed to emulate realistic attack scenarios, allowing defense teams to train and improve system hardening.",
+        
+        // Offensive
         "ransomware.offensive.title.prefix": "Invasor",
         "ransomware.offensive.title": "Offensive",
         "ransomware.offensive.badge": "Red Team",
         "ransomware.offensive.description": "Complete ransomware with real offensive capabilities, designed to evaluate and test defense mechanisms and incident response.",
+        
+        // Simulator
         "ransomware.simulator.title.prefix": "Invasor",
         "ransomware.simulator.title": "Simulator",
         "ransomware.simulator.description": "Harmless version for controlled simulations. Designed for training and awareness without compromising infrastructure.",
-        "ransomware.simulator.coming": "Coming Soon",
-        "ransomware.simulator.coming.description": "Simulator version in development",
-        "ransomware.simulator.preview1": "No real encryption",
-        "ransomware.simulator.preview2": "Phishing simulation",
-        "ransomware.simulator.preview3": "Reports",
-        "ransomware.simulator.preview4": "No lateral movement",
-        "ransomware.simulator.preview5": "Controlled environment",
+        "ransomware.simulator.badge": "Blue Team",
         
-        // Modules
+        // Simulator Modules
+        "simulator.loader.title": "LOADER",
+        "simulator.loader.desc": "In-memory loading",
+        "simulator.loader.tag1": "DLL Reflection",
+        "simulator.loader.tag2": "Anti-Debug",
+        "simulator.loader.tag3": "Obfuscation",
+        "simulator.loader.modules": "EncryptModule.dll, WallpaperChanger.dll, Reporter.dll, Windows.dll",
+        
+        "simulator.encrypt.title": "EncryptModule",
+        "simulator.encrypt.desc": "Encryption simulation",
+        "simulator.encrypt.stat1": "Fake files",
+        "simulator.encrypt.tag1": "1-5KB random",
+        "simulator.encrypt.tag2": ".invasor extension",
+        
+        "simulator.wallpaper.title": "WallpaperChanger",
+        "simulator.wallpaper.desc": "Desktop wallpaper change",
+        "simulator.wallpaper.tag1": "wallpaper.png",
+        "simulator.wallpaper.tag2": "%TEMP%",
+        "simulator.wallpaper.tag3": "Windows API",
+        
+        "simulator.windows.title": "Windows GUI",
+        "simulator.windows.desc": "Simulated ransom window",
+        "simulator.windows.stat1": "24h timer",
+        "simulator.windows.stat2": "3 attempts",
+        "simulator.windows.tag1": "Unique ID",
+        "simulator.windows.tag2": "Bitcoin",
+        
+        "simulator.reporter.title": "Reporter C2",
+        "simulator.reporter.desc": "C2 simulation",
+        "simulator.reporter.telegram": "Telegram",
+        "simulator.reporter.tag1": "Username",
+        "simulator.reporter.tag2": "Local IP",
+        "simulator.reporter.tag3": "Public IP",
+        "simulator.reporter.tag4": "Domain",
+        
+        // Offensive Modules
         "module.loader": "LOADER",
         "module.loader.desc": "In-memory execution",
         "module.loader.tag1": "DLL Reflection",

@@ -19,4 +19,4 @@
 
 ### Características de `Invasor Simulator`:
 
-<img src="https://img.shields.io/badge/LOADER:-00AB06.svg"> Test
+<img src="https://img.shields.io/badge/LOADER:-00AB06.svg"> Incluye un loader que carga y ejecuta los módulos (EncryptModule.dll, WallpaperChanger.dll, Reporter.dll, Windows.dll) directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa. Para reforzar la protección, los archivos .DLL son ofuscados empleando múltiples técnicas (Strings Encryption, Control Flow Obfuscation, Resource Encryption, Dead Code Injection, Metadata Pruning, Linking, PreMark, Anti-Debug, etc).

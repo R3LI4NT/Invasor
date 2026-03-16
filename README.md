@@ -49,6 +49,9 @@ Contacto:
 <img src="https://img.shields.io/badge/invasor.support@onionmail.org-0239A4?style=for-the-badge&logo=gmail&logoColor=white" />
 
 </br>
+
+<h1 align="center"></h1>
+
 </br>
 
 > [!NOTE]

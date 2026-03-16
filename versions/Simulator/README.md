@@ -25,6 +25,8 @@
 
 <img src="https://img.shields.io/badge/ENCRIPTACIÓN:-00AB06.svg"> Este módulo simula un ataque de ransomware creando múltiples archivos falsos directamente en el escritorio de la víctima. Utiliza un array con nombres realistas (documentos, fotos, bases de datos, etc.) y genera contenido binario aleatorio de 1 a 5KB para cada archivo. La creación es extremadamente rápida gracias al uso de Parallel.ForEach, que procesa todos los archivos simultáneamente. Inmediatamente después de crear cada archivo, lo "encripta" añadiendo el prefijo "🔒 [ENCRIPTADO POR INVASOR]" al contenido y cambiando su extensión a `.invasor`, eliminando el archivo original.
 
+<img width="1185" height="566" alt="1" src="https://github.com/user-attachments/assets/359a4190-9429-4c53-a545-3d37b6d59dd1" />
+
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/WALLPAPER CHANGER:-00AB06.svg"> Utiliza una imagen embebida directamente en el DLL (wallpaper.png) que se extrae temporalmente en la carpeta **%TEMP%** del sistema. A través de la API de Windows (SystemParametersInfo), establece esa imagen como nuevo fondo de escritorio, reemplazando el wallpaper original. Todo el proceso es rápido, no requiere conexión a internet y añade realismo a la simulación de ransomware.

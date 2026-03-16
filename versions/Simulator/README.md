@@ -27,4 +27,4 @@
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/WALLPAPER-CHANGER:-00AB06.svg"> Utiliza una imagen embebida directamente en el DLL (wallpaper.png) que se extrae temporalmente en la carpeta **%TEMP%** del sistema. A través de la API de Windows (SystemParametersInfo), establece esa imagen como nuevo fondo de escritorio, reemplazando el wallpaper original. Todo el proceso es rápido, no requiere conexión a internet y añade realismo a la simulación de ransomware.
+<img src="https://img.shields.io/badge/WALLPAPER CHANGER:-00AB06.svg"> Utiliza una imagen embebida directamente en el DLL (wallpaper.png) que se extrae temporalmente en la carpeta **%TEMP%** del sistema. A través de la API de Windows (SystemParametersInfo), establece esa imagen como nuevo fondo de escritorio, reemplazando el wallpaper original. Todo el proceso es rápido, no requiere conexión a internet y añade realismo a la simulación de ransomware.

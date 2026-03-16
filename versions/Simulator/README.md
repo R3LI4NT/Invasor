@@ -4,11 +4,11 @@
 
 <p align="center">
    <a href="https://dotnet.microsoft.com/">
-    <img src="https://img.shields.io/badge/C%23-Ransomware-093fb9.svg">
+    <img src="https://img.shields.io/badge/C%23-Ransomware-5CEE4A.svg">
   </a>
-    <img src="https://img.shields.io/badge/Version-Simulator-093fb9.svg">
+    <img src="https://img.shields.io/badge/Version-Simulator-5CEE4A.svg">
   </a>
-    <img src="https://img.shields.io/badge/Private-%F0%9F%94%92-093fb9.svg">
+    <img src="https://img.shields.io/badge/Private-%F0%9F%94%92-5CEE4A.svg">
   </a>
 </p>
 

@@ -28,3 +28,7 @@
 <h1 align="center"></h1>
 
 <img src="https://img.shields.io/badge/WALLPAPER CHANGER:-00AB06.svg"> Utiliza una imagen embebida directamente en el DLL (wallpaper.png) que se extrae temporalmente en la carpeta **%TEMP%** del sistema. A través de la API de Windows (SystemParametersInfo), establece esa imagen como nuevo fondo de escritorio, reemplazando el wallpaper original. Todo el proceso es rápido, no requiere conexión a internet y añade realismo a la simulación de ransomware.
+
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/WINDOWS:-00AB06.svg"> Este módulo muestra una ventana emergente que simula la interfaz de rescate de un ransomware real. Incluye un temporizador de 24 horas con cuenta regresiva en tiempo real, un ID único de desencriptación generado aleatoriamente, instrucciones de pago en Bitcoin, y un campo para ingresar una supuesta clave de desencriptación. El botón "DESENCRIPTAR" simula la verificación de clave, permitiendo hasta 3 intentos fallidos antes de bloquearse temporalmente por 10 segundos.

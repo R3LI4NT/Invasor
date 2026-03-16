@@ -20,3 +20,8 @@
 ### Características de `Invasor Simulator`:
 
 <img src="https://img.shields.io/badge/LOADER:-00AB06.svg"> Incluye un loader que carga y ejecuta los módulos (`EncryptModule.dll`, `WallpaperChanger.dll`, `Reporter.dll`, `Windows.dll`) directamente desde memoria, evitando que el archivo exista en el disco. Esta técnica reduce la superficie de detección y dificulta la ingeniería inversa. Para reforzar la protección, los archivos .DLL son ofuscados empleando múltiples técnicas (**Strings Encryption, Control Flow Obfuscation, Resource Encryption, Dead Code Injection, Metadata Pruning, Linking, PreMark, Anti-Debug, etc**).
+
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-00AB06.svg"> Este módulo simula un ataque de ransomware creando múltiples archivos falsos directamente en el escritorio de la víctima. Utiliza un array con nombres realistas (documentos, fotos, bases de datos, etc.) y genera contenido binario aleatorio de 1 a 5KB para cada archivo. La creación es extremadamente rápida gracias al uso de Parallel.ForEach, que procesa todos los archivos simultáneamente. Inmediatamente después de crear cada archivo, lo "encripta" añadiendo el prefijo "🔒 [ENCRIPTADO POR INVASOR]" al contenido y cambiando su extensión a .invasor, eliminando el archivo original.
+

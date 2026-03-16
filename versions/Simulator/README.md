@@ -23,5 +23,5 @@
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-00AB06.svg"> Este módulo simula un ataque de ransomware creando múltiples archivos falsos directamente en el escritorio de la víctima. Utiliza un array con nombres realistas (documentos, fotos, bases de datos, etc.) y genera contenido binario aleatorio de 1 a 5KB para cada archivo. La creación es extremadamente rápida gracias al uso de Parallel.ForEach, que procesa todos los archivos simultáneamente. Inmediatamente después de crear cada archivo, lo "encripta" añadiendo el prefijo "🔒 [ENCRIPTADO POR INVASOR]" al contenido y cambiando su extensión a .invasor, eliminando el archivo original.
+<img src="https://img.shields.io/badge/ENCRIPTACIÓN:-00AB06.svg"> Este módulo simula un ataque de ransomware creando múltiples archivos falsos directamente en el escritorio de la víctima. Utiliza un array con nombres realistas (documentos, fotos, bases de datos, etc.) y genera contenido binario aleatorio de 1 a 5KB para cada archivo. La creación es extremadamente rápida gracias al uso de Parallel.ForEach, que procesa todos los archivos simultáneamente. Inmediatamente después de crear cada archivo, lo "encripta" añadiendo el prefijo "🔒 [ENCRIPTADO POR INVASOR]" al contenido y cambiando su extensión a `.invasor`, eliminando el archivo original.
 

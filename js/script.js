@@ -188,7 +188,7 @@ const translations = {
         "footer.terms": "Términos de Servicio",
         "footer.privacy": "Política de Privacidad",
         "footer.nda": "Acuerdo de Confidencialidad",
-        "footer.copyright": "© 2026 Invasor Group. Todos los derechos reservados. Este servicio es 100% legal y solo se utiliza para pruebas de seguridad autorizadas bajo contrato.",
+        "footer.copyright": "© 2026 Invasor Group. Todos los derechos reservados. Este servicio es 100% legal y solo se utiliza para pruebas de seguridad autorizadas.",
 
         // Report
         "report.title": "Generación de Informes Técnicos",
@@ -385,7 +385,7 @@ const translations = {
         "footer.terms": "Terms of Service",
         "footer.privacy": "Privacy Policy",
         "footer.nda": "Confidentiality Agreement",
-        "footer.copyright": "© 2026 Invasor Group. All rights reserved. This service is 100% legal and only used for authorized security testing under contract.",
+        "footer.copyright": "© 2026 Invasor Group. All rights reserved. This service is 100% legal and only used for authorized security testing.",
 
         // Report
         "report.title": "Technical Report Generation",

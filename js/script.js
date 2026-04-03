@@ -32,18 +32,18 @@ const translations = {
         // Servicios
         "services.title": "Nuestros Servicios",
         "services.subtitle": "Ofrecemos diferentes paquetes de pruebas de seguridad adaptados a las necesidades de tu organización",
-        "services.basic.title": "Paquete Ransom",
+        "services.basic.title": "☠️ Paquete Ransom",
         "services.basic.description": "Ideal para pequeñas y medianas empresas que desean evaluar su resistencia básica ante ransomware.",
         "services.basic.item1": "Simulación de Ransomware + Phishing",
         "services.basic.item2": "Informe detallado de resultados",
         "services.basic.item3": "Análisis de vulnerabilidades Interno o Externo",
         "services.basic.button": "Solicitar Información",
-        "services.pro.title": "Paquete Pentest",
+        "services.pro.title": "🔍 Paquete Pentest",
         "services.pro.badge": "Más Popular",
-        "services.pro.description": "Para organizaciones que requieren una evaluación exhaustiva de su infraestructura de seguridad.",
+        "services.pro.description": "Para organizaciones que requieren una evaluación exhaustiva de su infraestructura de seguridad. Elija el servicio por combo completo o individual.",
         "services.pro.item1": "Pentesting Externo / Interno",
         "services.pro.item2": "Pentesting Active Directory",
-        "services.pro.item3": "Informe detallado con plan de remediación",
+        "services.pro.item4": "Informe detallado con plan de remediación",
         "services.pro.button": "Solicitar Información",
         
         // Cómo Funciona
@@ -229,18 +229,19 @@ const translations = {
         // Services
         "services.title": "Our Services",
         "services.subtitle": "We offer different security testing packages adapted to your organization's needs",
-        "services.basic.title": "Ransom Package",
+        "services.basic.title": "☠️ Ransom Package",
         "services.basic.description": "Ideal for small and medium-sized businesses wanting to evaluate their basic resistance to ransomware.",
         "services.basic.item1": "Ransomware + Phishing Simulation",
         "services.basic.item2": "Detailed Results Report",
         "services.basic.item3": "Internal or External Vulnerability Analysis",
         "services.basic.button": "Request Information",
-        "services.pro.title": "Pentest Package",
+        "services.pro.title": "🔍 Pentest Package",
         "services.pro.badge": "Most Popular",
-        "services.pro.description": "For organizations requiring a comprehensive evaluation of their security infrastructure.",
+        "services.pro.description": "For organizations that require a comprehensive evaluation of their security infrastructure. Choose the service as a complete package or individually.",
         "services.pro.item1": "Internal / External Pentesting",
         "services.pro.item2": "Active Directory Pentesting",
-        "services.pro.item3": "Detailed Report with Remediation Plan",
+        "services.pro.item3": "App Mobile Pentesting",
+        "services.pro.item4": "Detailed Report with Remediation Plan",
         "services.pro.button": "Request Information",
         
         // How It Works
@@ -793,6 +794,17 @@ function initCarousel() {
             description: {
                 es: "Pruebas de penetración controladas sobre entornos de Directorio Activo para identificar y mitigar riesgos críticos.",
                 en: "Controlled penetration testing on Active Directory environments to identify and mitigate critical risks."
+            }
+        },
+        {
+            image: "https://raw.githubusercontent.com/R3LI4NT/Invasor/refs/heads/main/img/invasor-14.png",
+            title: {
+                es: "Pentesting App Mobile",
+                en: "App Mobile Pentesting"
+            },
+            description: {
+                es: "Ingeniería inversa y análisis de vulnerabilidades en aplicaciones móviles.",
+                en: "Reverse engineering and vulnerability analysis in mobile applications."
             }
         }
     ];

@@ -619,22 +619,68 @@
         </div>
     </section>
 
-    <section class="cta-section">
+    <section class="contact-section" id="contacto">
         <div class="container">
-            <h2 data-translate="cta.title">¿Listo para Fortalecer tu Seguridad?</h2>
-            <p data-translate="cta.subtitle">Contacta con nuestro equipo para programar una demostración sin compromiso</p>
-            <a href="#contacto" class="cta-button glow">
-                <span data-translate="cta.button">Solicitar Información</span>
-                <i class="fas fa-arrow-right button-icon"></i>
-            </a>
-            <p class="cta-note">
+            <div class="contact-header">
+                <h2 data-translate="contact.title">¿Listo para Fortalecer tu Seguridad?</h2>
+                <p data-translate="contact.subtitle">Contacta con nuestro equipo de expertos para programar una Kickoff.</p>
+            </div>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" data-translate="contact.label.name">Nombre y Apellido:</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="contact.label.email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@empresa.com" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone" data-translate="contact.label.phone">Número de Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" class="form-input" placeholder="+34 123 456 789">
+                    </div>
+                    <div class="form-group">
+                        <label for="company" data-translate="contact.label.company">Empresa / Institución:</label>
+                        <input type="text" id="company" name="company" class="form-input" placeholder="Nombre de tu empresa">
+                    </div>
+                </div>
+                
+                <div class="form-group full-width">
+                    <label for="message" data-translate="contact.label.message">Consulta</label>
+                    <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Cuéntanos sobre tus necesidades de seguridad..." required></textarea>
+                </div>
+                
+                <div class="form-group full-width">
+                    <button type="submit" class="submit-btn" data-submit-btn>
+                        <span data-btn-text data-translate="contact.button">Enviar Consulta</span>
+                        <span data-btn-loading class="btn-loading hidden">
+                            <i class="fas fa-spinner fa-spin"></i> Enviando...
+                        </span>
+                    </button>
+                </div>
+                
+                <div class="form-messages">
+                    <div data-success-message class="success-message hidden">
+                        <i class="fas fa-check-circle"></i> ¡Consulta enviado con éxito! Te contactaremos a la brevedad.
+                    </div>
+                    <div data-error-message class="error-message hidden">
+                        <i class="fas fa-exclamation-circle"></i> Hubo un error al enviar la consulta. Por favor, inténtalo de nuevo.
+                    </div>
+                </div>
+            </form>
+            
+            <p class="contact-note">
                 <i class="fas fa-shield-alt"></i>
-                <span data-translate="cta.note">100% Confidencial • Sin Compromiso • Respuesta en 24h</span>
+                <span data-translate="contact.note">100% Confidencial • Sin Compromiso • Respuesta en 24h</span>
             </p>
         </div>
     </section>
 
-    <footer id="contacto">
+    <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
@@ -896,7 +942,8 @@
         </div>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="js/traduction.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>

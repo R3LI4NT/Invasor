@@ -1,5 +1,5 @@
 // ============================================
-// SISTEMA DE TRADUCCIÓN
+// SISTEMA DE TRADUCCIÓN COMPLETO
 // ============================================
 
 const translations = {
@@ -43,7 +43,8 @@ const translations = {
         "services.pro.description": "Para organizaciones que requieren una evaluación exhaustiva de su infraestructura de seguridad. Elija el servicio por combo completo o individual.",
         "services.pro.item1": "Pentesting Externo / Interno",
         "services.pro.item2": "Pentesting Active Directory",
-        "services.pro.item4": "Informe detallado con plan de remediación",
+        "services.pro.item3": "Pentesting App Mobile",
+        "services.pro.item5": "Informe detallado con plan de remediación",
         "services.pro.button": "Solicitar Información",
         
         // Cómo Funciona
@@ -174,7 +175,34 @@ const translations = {
         "module.decrypt.tag1": "Clave Privada ECC",
         "module.decrypt.tag2": "Clave AES",
         
-        // CTA
+        // SECCIÓN DE CONTACTO
+        "contact.title": "¿Listo para Fortalecer tu Seguridad?",
+        "contact.subtitle": "Contacta con nuestro equipo de expertos para programar una Kickoff.",
+        "contact.label.name": "Nombre y Apellido:",
+        "contact.label.email": "Correo Electrónico:",
+        "contact.label.phone": "Número de Teléfono:",
+        "contact.label.company": "Empresa / Institución:",
+        "contact.label.message": "Consulta:",
+        "contact.button": "Enviar Consulta",
+        "contact.note": "100% Confidencial • Sin Compromiso • Respuesta en 24h",
+        
+        // Mensajes del formulario
+        "contact.success": "¡Mensaje enviado con éxito! Te contactaremos a la brevedad.",
+        "contact.error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+        "contact.sending": "Enviando...",
+        
+        // Placeholders
+        "contact.placeholder.name": "Ej: Juan Pérez",
+        "contact.placeholder.email": "ejemplo@empresa.com",
+        "contact.placeholder.phone": "+34 123 456 789",
+        "contact.placeholder.company": "Nombre de tu empresa",
+        "contact.placeholder.message": "Cuéntanos sobre tus necesidades de seguridad...",
+        
+        // Validaciones
+        "contact.error.name": "Por favor ingresa tu nombre completo",
+        "contact.error.email": "Por favor ingresa un correo electrónico válido",
+        "contact.error.message": "Por favor ingresa un mensaje con al menos 10 caracteres",
+        
         "cta.title": "¿Listo para Fortalecer tu Seguridad?",
         "cta.subtitle": "Contacta con nuestro equipo para programar una demostración sin compromiso",
         "cta.button": "Solicitar Información",
@@ -240,8 +268,8 @@ const translations = {
         "services.pro.description": "For organizations that require a comprehensive evaluation of their security infrastructure. Choose the service as a complete package or individually.",
         "services.pro.item1": "Internal / External Pentesting",
         "services.pro.item2": "Active Directory Pentesting",
-        "services.pro.item3": "App Mobile Pentesting",
-        "services.pro.item4": "Detailed Report with Remediation Plan",
+        "services.pro.item3": "Mobile App Pentesting",
+        "services.pro.item5": "Detailed Report with Remediation Plan",
         "services.pro.button": "Request Information",
         
         // How It Works
@@ -372,7 +400,35 @@ const translations = {
         "module.decrypt.tag1": "ECC Private Key",
         "module.decrypt.tag2": "AES Key",
         
-        // CTA
+        // CONTACT SECTION
+        "contact.title": "Ready to Strengthen Your Security?",
+        "contact.subtitle": "Contact our team of experts to schedule a Kickoff.",
+        "contact.label.name": "Full Name:",
+        "contact.label.email": "Email Address:",
+        "contact.label.phone": "Phone Number:",
+        "contact.label.company": "Company / Institution:",
+        "contact.label.message": "Query:",
+        "contact.button": "Send Query",
+        "contact.note": "100% Confidential • No Commitment • Response in 24h",
+        
+        // Form messages
+        "contact.success": "Message sent successfully! We will contact you shortly.",
+        "contact.error": "There was an error sending the message. Please try again.",
+        "contact.sending": "Sending...",
+        
+        // Placeholders
+        "contact.placeholder.name": "e.g., John Doe",
+        "contact.placeholder.email": "example@company.com",
+        "contact.placeholder.phone": "+1 234 567 890",
+        "contact.placeholder.company": "Your company name",
+        "contact.placeholder.message": "Tell us about your security needs...",
+        
+        // Validations
+        "contact.error.name": "Please enter your full name",
+        "contact.error.email": "Please enter a valid email address",
+        "contact.error.message": "Please enter a message with at least 10 characters",
+        
+        // CTA (old section, kept for compatibility)
         "cta.title": "Ready to Strengthen Your Security?",
         "cta.subtitle": "Contact our team to schedule a no-obligation demonstration",
         "cta.button": "Request Information",
@@ -400,6 +456,42 @@ const translations = {
 };
 
 let currentLang = 'es';
+
+// Función para actualizar los placeholders de los inputs
+function updateFormPlaceholders() {
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const phoneInput = document.getElementById('phone');
+    const companyInput = document.getElementById('company');
+    const messageTextarea = document.getElementById('message');
+    
+    if (nameInput) nameInput.placeholder = translations[currentLang]["contact.placeholder.name"];
+    if (emailInput) emailInput.placeholder = translations[currentLang]["contact.placeholder.email"];
+    if (phoneInput) phoneInput.placeholder = translations[currentLang]["contact.placeholder.phone"];
+    if (companyInput) companyInput.placeholder = translations[currentLang]["contact.placeholder.company"];
+    if (messageTextarea) messageTextarea.placeholder = translations[currentLang]["contact.placeholder.message"];
+}
+
+// Función para actualizar los mensajes del formulario (success/error)
+function updateFormMessages() {
+    const successMsg = document.querySelector('[data-success-message]');
+    const errorMsg = document.querySelector('[data-error-message]');
+    const btnText = document.querySelector('[data-btn-text]');
+    const btnLoading = document.querySelector('[data-btn-loading]');
+    
+    if (successMsg) {
+        successMsg.innerHTML = `<i class="fas fa-check-circle"></i> ${translations[currentLang]["contact.success"]}`;
+    }
+    if (errorMsg) {
+        errorMsg.innerHTML = `<i class="fas fa-exclamation-circle"></i> ${translations[currentLang]["contact.error"]}`;
+    }
+    if (btnText && !btnText.classList.contains('hidden')) {
+        btnText.textContent = translations[currentLang]["contact.button"];
+    }
+    if (btnLoading) {
+        btnLoading.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${translations[currentLang]["contact.sending"]}`;
+    }
+}
 
 function initTypewriter() {
     const typewriterTexts = {
@@ -471,16 +563,24 @@ function initTypewriter() {
 function changeLanguage(lang) {
     currentLang = lang;
     
+    // Traducir elementos con data-translate
     document.querySelectorAll('[data-translate]').forEach(element => {
         const key = element.getAttribute('data-translate');
         if (translations[lang] && translations[lang][key]) {
             if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                // Para inputs y textareas, traducir placeholder
                 element.placeholder = translations[lang][key];
             } else {
                 element.textContent = translations[lang][key];
             }
         }
     });
+    
+    // Actualizar placeholders específicos del formulario
+    updateFormPlaceholders();
+    
+    // Actualizar mensajes del formulario
+    updateFormMessages();
     
     document.title = lang === 'es' 
         ? 'Invasor Group - Servicios de Ciberseguridad'
@@ -800,7 +900,7 @@ function initCarousel() {
             image: "https://raw.githubusercontent.com/R3LI4NT/Invasor/refs/heads/main/img/invasor-14.png",
             title: {
                 es: "Pentesting App Mobile",
-                en: "App Mobile Pentesting"
+                en: "Mobile App Pentesting"
             },
             description: {
                 es: "Ingeniería inversa y análisis de vulnerabilidades en aplicaciones móviles.",
@@ -987,6 +1087,7 @@ function initCarousel() {
     };
 }
 
+// Inicialización principal
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Inicializando sitio...');
     
@@ -1000,9 +1101,14 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScroll();
     initScrollAnimations();
     
+    // Inicializar placeholders y mensajes del formulario
+    updateFormPlaceholders();
+    updateFormMessages();
+    
     console.log('Sitio inicializado correctamente');
 });
 
+// Efecto 3D en tarjetas
 function init3DCards() {
     const cards = document.querySelectorAll('.service-card');
     
@@ -1067,6 +1173,7 @@ function init3DCards() {
     });
 }
 
+// Estilos adicionales para el efecto 3D
 document.addEventListener('DOMContentLoaded', () => {
     const style = document.createElement('style');
     style.textContent = `

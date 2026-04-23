@@ -70,7 +70,7 @@ El VPS se utiliza para:
 
 <img src="https://img.shields.io/badge/DESENCRIPTACIÓN:-093fb9.svg"> Invasor cuenta con un Desencriptador GUI para recuperar los archivos encriptados, permite desencriptar por lote o por archivo individual.
 
-<img width="478" height="716" alt="Decrypt-INVASOR" src="https://github.com/user-attachments/assets/14ba5475-de19-4b53-b5a7-068ae74ae90d" />
+<img width="678" height="716" alt="Decrypt-INVASOR" src="https://github.com/user-attachments/assets/14ba5475-de19-4b53-b5a7-068ae74ae90d" />
 
 https://github.com/user-attachments/assets/f31e48cb-b8b1-40eb-aba2-bfbb7284d594
 

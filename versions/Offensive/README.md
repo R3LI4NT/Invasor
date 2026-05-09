@@ -84,7 +84,8 @@ https://github.com/user-attachments/assets/f31e48cb-b8b1-40eb-aba2-bfbb7284d594
 
 Los archivos se comprimen en un .ZIP y se envían automáticamente. En caso de que el comprimido supere los 3.8GB, se envían por partes.
 
-<img width="662" height="275" alt="Stealer_Diagrama" src="https://github.com/user-attachments/assets/8a3470dc-7c33-4c71-b233-9586ce986c66" />
+<img width="662" height="275" alt="Stealer_Diagrama" src="https://github.com/user-attachments/assets/6d08d840-2fbd-485a-b210-d81c0b753c47" />
+
 
 `Stealer 2- RClone:` Utiliza RClone para sincronizar los archivos a la nube (API Drive) antes de encriptarlos, permite subir grandes volúmenes de archivos simultáneamente. RClone es un software legítimo, no es detectado como malware.
 

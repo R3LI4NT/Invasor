@@ -97,7 +97,7 @@ Se le puede especificar que directorios y archivos debe exfiltrar.
 
 <h1 align="center"></h1>
 
-<img src="https://img.shields.io/badge/DATALEAK:-093fb9.svg">  Invasor cuenta con un proyecto web full personalizable listo para usarse en las filtraciones de datos.
+<img src="https://img.shields.io/badge/DATALEAK:-093fb9.svg"> Invasor cuenta con un proyecto web full personalizable listo para usarse en las filtraciones de datos.
 
 https://github.com/user-attachments/assets/be25f8a7-6240-4fd2-a245-71ede1b3e075
 
@@ -110,6 +110,20 @@ https://github.com/user-attachments/assets/be25f8a7-6240-4fd2-a245-71ede1b3e075
 <img width="665" height="333" alt="7" src="https://github.com/user-attachments/assets/70ee49a5-9bed-41f7-9c26-58e8bb64b174" />
 
 <h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/INFRAESTRUCTURA INTERNA:-093fb9.svg"> Los afiliados de Invasor disponen de acceso a la plataforma de gestión interna de Invasor Leaks, diseñada para administrar de manera centralizada y organizada la información relacionada con las víctimas afectadas. Dentro de la plataforam pueden crear una nueva tarjeta con nombre de la empresa/institución afectada, logo (opcional), subir las llaves AES + ECC con contraseña para mayor seguridad, precio estimado del rescate y temporizador.
+
+<img width="1919" height="948" alt="invasor-leaks-1" src="https://github.com/user-attachments/assets/f0fed8e0-7431-46c8-aa15-92d915ef6dce" />
+
+<img width="1919" height="949" alt="invasor-leaks-2" src="https://github.com/user-attachments/assets/6c6077eb-e3ea-4734-ba36-bd2199075e42" />
+
+<img width="846" height="913" alt="invasor-leaks-3" src="https://github.com/user-attachments/assets/931e7d88-9b29-4e80-8794-41fe8fd14d39" />
+
+<img width="1919" height="949" alt="invasor-leaks-4" src="https://github.com/user-attachments/assets/e53c68a7-9bc5-4e81-bfbc-88b579f38c8a" />
+
+<h1 align="center"></h1>
+
+<img src="https://img.shields.io/badge/DATALEAK:-093fb9.svg">
 
 <img src="https://img.shields.io/badge/PAYLOAD 1)-DISCOVERY-093fb9.svg"> Se diseño un herramienta de recolección de información del sistema que realiza un análisis comprehensivo del equipo infectado, recolectando datos como:
 

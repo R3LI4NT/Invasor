@@ -119,6 +119,8 @@ https://github.com/user-attachments/assets/be25f8a7-6240-4fd2-a245-71ede1b3e075
 
 <img width="846" height="913" alt="invasor-leaks-3" src="https://github.com/user-attachments/assets/931e7d88-9b29-4e80-8794-41fe8fd14d39" />
 
+Desde la administración de Invasor Group se crean y otorgan permisos a los usuarios correspondientes.
+
 <img width="1919" height="949" alt="invasor-leaks-4" src="https://github.com/user-attachments/assets/e53c68a7-9bc5-4e81-bfbc-88b579f38c8a" />
 
 <h1 align="center"></h1>
